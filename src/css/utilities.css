@@ -1,0 +1,4 @@
+/* sections */
+.SectionBoxMaxWidth {
+	@apply mx-auto max-w-[1300px];
+}

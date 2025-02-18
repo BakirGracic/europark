@@ -1,0 +1,13 @@
+@import 'tailwindcss';
+
+@theme {
+	--font-body: 'Inter', 'Inter Fallback';
+}
+
+@plugin "@tailwindcss/typography";
+@plugin "daisyui";
+
+/* todo make daisyui themes for b & w */
+
+@import './global.css';
+@import './utilities.css';

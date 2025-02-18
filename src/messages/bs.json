@@ -1,0 +1,9 @@
+{
+	"HOMEPAGE": {
+		"Metadata": {
+			"title": "Naslov",
+			"description": "Opis"
+		},
+		"test": "lorem ipsum dolor sit amet"
+	}
+}

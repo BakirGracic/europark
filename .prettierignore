@@ -1,0 +1,10 @@
+.next
+certificates
+node_modules
+public
+**/images/**
+.env*
+.gitignore
+.prettierignore
+package-lock.json
+tsconfig.tsbuildinfo
