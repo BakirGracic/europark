@@ -2,7 +2,6 @@ import { getMetadataIntlAlts, getPathname } from '@/i18n/routing';
 import { coreMetadataObject } from '@/lib/metadata';
 import { getTranslations } from 'next-intl/server';
 import { type Metadata } from 'next';
-import Test from '@/features/test/components/Test';
 
 export async function generateMetadata({
 	params
@@ -32,7 +31,9 @@ export async function generateMetadata({
 export default function Homepage() {
 	return (
 		<>
-			<Test />
+			<div>
+				<p>test</p>
+			</div>
 		</>
 	);
 }

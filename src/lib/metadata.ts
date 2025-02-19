@@ -4,10 +4,10 @@ import type { Viewport } from 'next';
 export const coreMetadataObject: Metadata = {
 	title: '',
 	description: '',
-	applicationName: '',
+	applicationName: 'EuroPark',
 	authors: [{ name: '', url: `${process.env.NEXT_PUBLIC_APP_URL}/` }],
-	creator: '',
-	publisher: '',
+	creator: 'EuroPark',
+	publisher: 'EuroPark',
 	alternates: {
 		canonical: `${process.env.NEXT_PUBLIC_APP_URL}/`,
 		languages: {
@@ -20,7 +20,7 @@ export const coreMetadataObject: Metadata = {
 		title: '',
 		description: '',
 		url: `${process.env.NEXT_PUBLIC_APP_URL}/`,
-		siteName: '',
+		siteName: 'EuroPark',
 		images: [
 			{
 				url: `${process.env.NEXT_PUBLIC_APP_URL}/og.png`,
@@ -53,6 +53,6 @@ export const coreMetadataObject: Metadata = {
 };
 
 export const coreViewportObject: Viewport = {
-	themeColor: '#ffffff',
-	colorScheme: 'only light'
+	themeColor: '#F7F5F3',
+	colorScheme: 'light dark'
 };

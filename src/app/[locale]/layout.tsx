@@ -1,7 +1,5 @@
-// TODO make favicons from logo from hara!
-
 import '@/css/tailwind.css';
-import { InterFont } from '@/lib/fonts';
+import { InterFont, KarlaFont } from '@/lib/fonts';
 import { coreViewportObject } from '@/lib/metadata';
 import { getMessages, setRequestLocale } from 'next-intl/server';
 import { NextIntlClientProvider } from 'next-intl';
@@ -33,7 +31,7 @@ export default async function RootLayout({
 
 	return (
 		<html lang={locale}>
-			<body className={`${InterFont.variable}`}>
+			<body className={`${InterFont.variable} ${KarlaFont.variable}`}>
 				<NextIntlClientProvider messages={messages}>
 					<main>{children}</main>
 				</NextIntlClientProvider>

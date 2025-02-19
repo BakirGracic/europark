@@ -7,8 +7,8 @@ export default function manifest(): MetadataRoute.Manifest {
 		start_url: `${process.env.NEXT_PUBLIC_APP_URL}/`,
 		scope: `${process.env.NEXT_PUBLIC_APP_URL}/`,
 		display: 'standalone',
-		background_color: '#ffffff',
-		theme_color: '#ffffff', // TODO kada dobijes od hare UI details i logo napravi ovo zavisno koju temu (belu ili crnu) odredis da bude default
+		theme_color: '#f7f5f3',
+		background_color: '#003162',
 		icons: [
 			{
 				src: '/web-app-manifest-192x192.png',

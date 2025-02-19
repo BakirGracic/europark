@@ -2,12 +2,17 @@
 
 @theme {
 	--font-body: 'Inter', 'Inter Fallback';
+	--font-display: 'Karla', 'Karla Fallback';
 }
 
 @plugin "@tailwindcss/typography";
-@plugin "daisyui";
+@plugin "daisyui" {
+	themes:
+		silk --default,
+		forest --prefersdark;
+}
 
-/* todo make daisyui themes for b & w */
+/* TODO vidi jel oke silk+forest za b/w teme ili da mijenjas */
 
 @import './global.css';
 @import './utilities.css';
