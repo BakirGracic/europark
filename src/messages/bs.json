@@ -1,9 +1,14 @@
 {
-	"HOMEPAGE": {
-		"Metadata": {
-			"title": "Naslov",
-			"description": "Opis"
-		},
-		"test": "lorem ipsum dolor sit amet"
+	"Metadata": {
+		"title": "Naslov",
+		"description": "Opis"
+	},
+	"Navbar": {
+		"cta": "Rezerviši"
+	},
+	"Hero": {
+		"title": "Najbolji parking u gradu",
+		"description": "EuroPark je sigurno mjesto za parkiranje vašeg vozila. Na udaljenosti od par minuta do Sarajevskog aerodroma, posjedujemo visoke sigurnosne mjere, profesionalnu uslugu i transport.",
+		"cta": "Rezerviši već danas"
 	}
 }

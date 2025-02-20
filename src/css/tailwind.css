@@ -2,7 +2,6 @@
 
 @theme {
 	--font-body: 'Inter', 'Inter Fallback';
-	--font-display: 'Karla', 'Karla Fallback';
 }
 
 @plugin "@tailwindcss/typography";
@@ -11,8 +10,6 @@
 		silk --default,
 		forest --prefersdark;
 }
-
-/* TODO vidi jel oke silk+forest za b/w teme ili da mijenjas */
 
 @import './global.css';
 @import './utilities.css';

@@ -2,6 +2,9 @@ import { getMetadataIntlAlts, getPathname } from '@/i18n/routing';
 import { coreMetadataObject } from '@/lib/metadata';
 import { getTranslations } from 'next-intl/server';
 import { type Metadata } from 'next';
+import Navbar from '@/features/navbar/components/Navbar';
+import Hero from '@/features/hero/components/Hero';
+import Floating from '@/features/floating/components/Floating';
 
 export async function generateMetadata({
 	params
@@ -9,19 +12,19 @@ export async function generateMetadata({
 	params: Promise<{ locale: string }>;
 }): Promise<Metadata> {
 	const locale = (await params).locale;
-	const t = await getTranslations({ locale, namespace: 'HOMEPAGE' });
+	const t = await getTranslations({ locale, namespace: 'Metadata' });
 
 	return {
 		...coreMetadataObject,
-		title: t('Metadata.title'),
-		description: t('Metadata.description'),
+		title: t('title'),
+		description: t('description'),
 		alternates: {
 			...getMetadataIntlAlts('/')
 		},
 		openGraph: {
 			...coreMetadataObject.openGraph,
-			title: t('Metadata.title'),
-			description: t('Metadata.description'),
+			title: t('title'),
+			description: t('description'),
 			url: getPathname({ href: '/', locale }),
 			locale: locale
 		}
@@ -31,9 +34,10 @@ export async function generateMetadata({
 export default function Homepage() {
 	return (
 		<>
-			<div>
-				<p>test</p>
-			</div>
+			<Floating />
+			<Hero>
+				<Navbar />
+			</Hero>
 		</>
 	);
 }

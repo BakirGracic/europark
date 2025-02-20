@@ -1,5 +1,9 @@
 {
-	"HOMEPAGE": {
-		"test": "lorem ipsum dolor sit amet"
+	"Metadata": {
+		"title": "Naslov",
+		"description": "Opis"
+	},
+	"Navbar": {
+		"cta": "Rezerviši"
 	}
 }
