@@ -16,10 +16,12 @@
 		"next": "15.1.7",
 		"next-intl": "^3.26.4",
 		"react": "^19.0.0",
-		"react-dom": "^19.0.0"
+		"react-dom": "^19.0.0",
+		"swiper": "^11.2.4"
 	},
 	"devDependencies": {
 		"@eslint/eslintrc": "^3",
+		"@heroicons/react": "^2.2.0",
 		"@tailwindcss/typography": "^0.5.16",
 		"@types/node": "^22",
 		"@types/react": "^19",

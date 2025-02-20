@@ -5,5 +5,10 @@
 	},
 	"Navbar": {
 		"cta": "Rezerviši"
+	},
+	"Hero": {
+		"title": "Najbolji parking u gradu",
+		"description": "EuroPark je sigurno mjesto za parkiranje vašeg vozila. Na udaljenosti od par minuta do Sarajevskog aerodroma, posjedujemo visoke sigurnosne mjere, profesionalnu uslugu i transport.",
+		"cta": "Rezerviši već danas"
 	}
 }

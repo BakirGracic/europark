@@ -4,7 +4,9 @@ import { getTranslations } from 'next-intl/server';
 import { type Metadata } from 'next';
 import Navbar from '@/features/navbar/components/Navbar';
 import Hero from '@/features/hero/components/Hero';
-import Floating from '@/features/floating/components/Floating';
+import Contact from '@/features/floating/components/Contact';
+import Indicator from '@/features/floating/components/Indicator';
+import Slideshow from '@/features/hero/components/Slideshow';
 
 export async function generateMetadata({
 	params
@@ -34,9 +36,11 @@ export async function generateMetadata({
 export default function Homepage() {
 	return (
 		<>
-			<Floating />
+			<Contact />
 			<Hero>
+				<Slideshow />
 				<Navbar />
+				<Indicator />
 			</Hero>
 		</>
 	);
