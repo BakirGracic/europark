@@ -8,9 +8,11 @@ import { Autoplay, EffectFade } from 'swiper/modules';
 import Image from 'next/image';
 import Slideshow1JPG from '@/images/slideshow/slideshow-1.jpg';
 import Slideshow2JPG from '@/images/slideshow/slideshow-2.jpg';
-import Slideshow3JPG from '@/images/slideshow/slideshow-2.jpg';
+import Slideshow3JPG from '@/images/slideshow/slideshow-3.jpg';
 
 export default function Slideshow() {
+	const slides = [Slideshow1JPG, Slideshow2JPG, Slideshow3JPG];
+
 	return (
 		<Swiper
 			className='absolute inset-0 h-full w-full'
@@ -22,30 +24,16 @@ export default function Slideshow() {
 			loop={true}
 			effect={'fade'}
 		>
-			<SwiperSlide>
-				<Image
-					src={Slideshow1JPG}
-					alt='Slideshow 1'
-					className='object-cover brightness-[40%] contrast-[70%]'
-					fill
-				/>
-			</SwiperSlide>
-			<SwiperSlide>
-				<Image
-					src={Slideshow2JPG}
-					alt='Slideshow 2'
-					className='object-cover brightness-[40%] contrast-[70%]'
-					fill
-				/>
-			</SwiperSlide>
-			<SwiperSlide>
-				<Image
-					src={Slideshow3JPG}
-					alt='Slideshow 3'
-					className='object-cover brightness-[40%] contrast-[70%]'
-					fill
-				/>
-			</SwiperSlide>
+			{slides.map((img, i) => (
+				<SwiperSlide key={i}>
+					<Image
+						src={img}
+						alt={`Slideshow ${i + 1}`}
+						className='object-cover brightness-[40%] contrast-[70%]'
+						fill
+					/>
+				</SwiperSlide>
+			))}
 		</Swiper>
 	);
 }

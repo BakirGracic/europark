@@ -1,5 +1,5 @@
 import { QuestionMarkCircleIcon } from '@heroicons/react/24/solid';
-import Card from '@/features/reasons/components/Card';
+import Cards from '@/features/reasons/components/Cards';
 import { useTranslations } from 'next-intl';
 
 export default function Reasons() {
@@ -12,18 +12,7 @@ export default function Reasons() {
 				<QuestionMarkCircleIcon className='size-8' />
 			</h2>
 			<div className='flex flex-wrap items-center justify-center gap-5'>
-				<Card
-					title={t('1.title')}
-					points={[t('1.points.1'), t('1.points.2'), t('1.points.3')]}
-				/>
-				<Card
-					title={t('2.title')}
-					points={[t('2.points.1'), t('2.points.2'), t('2.points.3')]}
-				/>
-				<Card
-					title={t('3.title')}
-					points={[t('3.points.1'), t('3.points.2'), t('3.points.3')]}
-				/>
+				<Cards />
 			</div>
 		</section>
 	);

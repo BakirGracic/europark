@@ -1,5 +1,5 @@
 import { CurrencyEuroIcon } from '@heroicons/react/24/solid';
-import Card from '@/features/pricelist/components/Card';
+import Cards from '@/features/pricelist/components/Cards';
 import { useTranslations } from 'next-intl';
 
 export default function Pricelist() {
@@ -12,7 +12,7 @@ export default function Pricelist() {
 				<CurrencyEuroIcon className='size-8' />
 			</h2>
 			<div className='flex flex-wrap items-center justify-center gap-5'>
-				<Card />
+				<Cards />
 			</div>
 		</section>
 	);
