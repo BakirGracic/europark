@@ -38,7 +38,7 @@ export default function LanguageSwitcher() {
 					src={languages[locale].image}
 					width={30}
 					height={30}
-					alt='Current Language Flag'
+					alt={languages[locale].label}
 				/>
 			</div>
 			<ul

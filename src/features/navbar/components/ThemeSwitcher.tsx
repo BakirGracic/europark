@@ -5,7 +5,7 @@ import { MoonIcon, SunIcon } from '@heroicons/react/24/outline';
 export default function ThemeSwitcher() {
 	return (
 		<label className='swap swap-rotate'>
-			<input type='checkbox' className='theme-controller' value='silk' />
+			<input type='checkbox' className='theme-controller' value='custom_dark' />
 
 			<MoonIcon className='swap-on h-6 w-6' />
 
