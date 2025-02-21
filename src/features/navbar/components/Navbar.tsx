@@ -10,10 +10,10 @@ export default function Navbar() {
 
 	return (
 		<div className='navbar absolute top-0 right-0 left-0 z-50 p-5'>
-			<div className='flex-1'>
+			<div className='mr-5 flex-1'>
 				<Image src={LogoPNG} alt='EuroPark Logo' height={40} />
 			</div>
-			<div className='flex items-center gap-6'>
+			<div className='flex items-center gap-5'>
 				<ThemeSwitcher />
 				<LanguageSwitcher />
 				<Link href='#reserve' className='btn btn-primary shadow-md'>

@@ -10,5 +10,104 @@
 		"title": "Najbolji parking u gradu",
 		"description": "EuroPark je sigurno mjesto za parkiranje vašeg vozila. Na udaljenosti od par minuta do Sarajevskog aerodroma, posjedujemo visoke sigurnosne mjere, profesionalnu uslugu i transport.",
 		"cta": "Rezerviši već danas"
+	},
+	"Reasons": {
+		"section_title": "Zašto EuroPark",
+		"1": {
+			"title": "Sigurnost",
+			"points": {
+				"1": "Vrhunska sigurnosna oprema",
+				"2": "Profesionalno fizičko lice",
+				"3": "Video nadzor 24/7"
+			}
+		},
+		"2": {
+			"title": "Lokacija",
+			"points": {
+				"1": "3 min od aerodroma",
+				"2": "Pristupačna lokacija",
+				"3": "Besplatan transfer"
+			}
+		},
+		"3": {
+			"title": "Usluga",
+			"points": {
+				"1": "Vi ste nam u prvom planu",
+				"2": "Jednostavna rezervacija",
+				"3": "Zagarantovana sigurnost vozila"
+			}
+		}
+	},
+	"Timeline": {
+		"section_title": "Jednostavan Proces",
+		"step": "Korak",
+		"1": {
+			"title": "Rezerviši",
+			"text": "Pomoću naših online kontakata brzo i online rezerviši svoje mjesto. Naš tim će te kontaktirati za potvrdu i pobrinuti se za tvoj dolazak."
+		},
+		"2": {
+			"title": "Parkiraj",
+			"text": "Dolaskom bezbrižno parkiraj svoje vozilo na našem parkingu. Za tebe smo osigurali besplatan transfer do aerodroma za svega par minuta."
+		},
+		"3": {
+			"title": "Preuzmi",
+			"text": "Po tvom dolasku, čekamo te na aerodromu i osiguravamo transfer do parkinga, gje se pozdravljamo, uručujemo ključeve i poželimo sreću za dalje."
+		}
+	},
+	"Pricelist": {
+		"section_title": "Pristupačne Cijene",
+		"1to5": {
+			"tip": "Kratko putovanje",
+			"label": "1 do 5 dana",
+			"price_bam": "11",
+			"price_eur": "5.5"
+		},
+		"6to10": {
+			"tip": "Najpopularniji",
+			"label": "6 do 10 dana",
+			"price_bam": "10",
+			"price_eur": "5"
+		},
+		"11to15": {
+			"tip": "Godišnji odmor",
+			"label": "11 do 15 dana",
+			"price_bam": "9",
+			"price_eur": "4.5"
+		},
+		"16to30": {
+			"tip": "Duže odsustvo",
+			"label": "16 do 30 dana",
+			"price_bam": "8",
+			"price_eur": "4"
+		}
+	},
+	"FAQ": {
+		"section_title": "Česta Pitanja",
+		"1": {
+			"q": "Kako do nas?",
+			"a": "Nalazimo se u ulici Braće Mulić BB par stotina metara od Sarajevskog aerodroma."
+		},
+		"2": {
+			"q": "Kako se plaća?",
+			"a": "Plaćanje naše usluge se vrši nakon što parkirate vaš auto i budemo sigurni da je sve u redu."
+		},
+		"3": {
+			"q": "Prekoračenje termina rezervacije?",
+			"a": "Uslučaju da ne preuzmete vaš auto do dogovorenog roka svaki naredni dan se računa 10KM."
+		},
+		"4": {
+			"q": "Šta u slučaju oštećenja?",
+			"a": "Vaše vozilo je na sigurnom i do oštećenja neće doći, ukoliko nevrijeme ili neka druga neprilika ošteti vaše vozilo mi ne snosimo troškove popravke."
+		},
+		"5": {
+			"q": "Kako otkazati termin?",
+			"a": "Termin možete otkazati pozivom ili porukom na mail, najkasniji rok otkazivanja je 3 dana."
+		}
+	},
+
+	"Footer": {
+		"company_title": "Kompanija",
+		"partner_company_title": "Partnerska Kompanija",
+		"links_title": "Linkovi"
 	}
 }

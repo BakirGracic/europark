@@ -1,0 +1,7 @@
+.SectionBox {
+	@apply my-14 px-3;
+}
+
+.SectionTitle {
+	@apply mb-10 flex items-center justify-center gap-2.5 text-center text-4xl font-semibold;
+}

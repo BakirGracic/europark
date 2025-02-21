@@ -16,7 +16,7 @@ export default function Slideshow() {
 			className='absolute inset-0 h-full w-full'
 			modules={[Autoplay, EffectFade]}
 			autoplay={{
-				delay: 3500,
+				delay: 3000,
 				disableOnInteraction: false
 			}}
 			loop={true}
