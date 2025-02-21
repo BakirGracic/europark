@@ -1,15 +1,15 @@
 {
 	"Metadata": {
-		"title": "Naslov",
-		"description": "Opis"
+		"title": "EuroPark | Najbolji aerodromski parking u Sarajevu",
+		"description": "Siguran i pristupačan parking kod Sarajevskog aerodroma. Video nadzor 24/7, osvjetljeno, besplatan transport. Rezervišite svoje parking mjesto unaprijed po najpovoljnijim cijenama."
 	},
 	"Navbar": {
 		"cta": "Rezerviši"
 	},
 	"Hero": {
 		"title": "Najbolji parking u gradu",
-		"description": "EuroPark je sigurno mjesto za parkiranje vašeg vozila. Na udaljenosti od par minuta do Sarajevskog aerodroma, posjedujemo visoke sigurnosne mjere, profesionalnu uslugu i transport.",
-		"cta": "Rezerviši već danas"
+		"description": "EuroPark je sigurno mjesto za parkiranje vašeg vozila. Udaljeni smo par minuta do Sarajevskog aerodroma, posjedujemo visoke sigurnosne mjere, profesionalnu uslugu i besplatan transport.",
+		"cta": "Rezerviši sada"
 	},
 	"Reasons": {
 		"section_title": "Zašto EuroPark",
@@ -32,7 +32,7 @@
 		"3": {
 			"title": "Usluga",
 			"points": {
-				"1": "Vi ste nam u prvom planu",
+				"1": "Vi ste u prvom planu",
 				"2": "Jednostavna rezervacija",
 				"3": "Zagarantovana sigurnost vozila"
 			}
@@ -43,7 +43,7 @@
 		"step": "Korak",
 		"1": {
 			"title": "Rezerviši",
-			"text": "Pomoću naših online kontakata brzo i online rezerviši svoje mjesto. Naš tim će te kontaktirati za potvrdu i pobrinuti se za tvoj dolazak."
+			"text": "Pomoću naših online kontakata jednostavno online rezerviši svoje mjesto. Naš tim će te kontaktirati za potvrdu i spremiti sve za tvoj dolazak."
 		},
 		"2": {
 			"title": "Parkiraj",
@@ -51,7 +51,7 @@
 		},
 		"3": {
 			"title": "Preuzmi",
-			"text": "Po tvom dolasku, čekamo te na aerodromu i osiguravamo transfer do parkinga, gje se pozdravljamo, uručujemo ključeve i poželimo sreću za dalje."
+			"text": "Po tvom povratku, čekamo te na aerodromu i osiguravamo transfer do parkinga, gje se pozdravljamo, uručujemo ključeve i poželimo sreću."
 		}
 	},
 	"Pricelist": {
@@ -84,30 +84,33 @@
 	"FAQ": {
 		"section_title": "Česta Pitanja",
 		"1": {
-			"q": "Kako do nas?",
-			"a": "Nalazimo se u ulici Braće Mulić BB par stotina metara od Sarajevskog aerodroma."
+			"q": "Kako do EuroPark-a?",
+			"a": "Nalazimo se u ulici Braće Mulić BB, par stotina metara od Sarajevskog aerodroma."
 		},
 		"2": {
-			"q": "Kako se plaća?",
-			"a": "Plaćanje naše usluge se vrši nakon što parkirate vaš auto i budemo sigurni da je sve u redu."
+			"q": "Kada i kako plaćam?",
+			"a": "Plaćanje naših usluga se vrši nakon parkiranja Vašeg vozila i kada budemo sigurni da je sve u redu. Plaćanje je gotovinom u valuti KM"
 		},
 		"3": {
-			"q": "Prekoračenje termina rezervacije?",
-			"a": "Uslučaju da ne preuzmete vaš auto do dogovorenog roka svaki naredni dan se računa 10KM."
+			"q": "Šta ako prekoračim?",
+			"a": "U slučaju da ne preuzmete Vaše auto do dogovorenog datuma, svaki naredni dan se računa uz doplatu od 10KM (5€)."
 		},
 		"4": {
-			"q": "Šta u slučaju oštećenja?",
-			"a": "Vaše vozilo je na sigurnom i do oštećenja neće doći, ukoliko nevrijeme ili neka druga neprilika ošteti vaše vozilo mi ne snosimo troškove popravke."
+			"q": "A u slučaju oštećenja?",
+			"a": "Vaše vozilo je na sigurnom i garantujemo zaštitu Vašeg vozila. Ukoliko nepredviđene situacije koje nisu naša odgovornost oštete vaše vozilo, mi ne snosimo troškove. Za detaljnije informacije pročitajte stranicu Uslova Korištenja."
 		},
 		"5": {
-			"q": "Kako otkazati termin?",
-			"a": "Termin možete otkazati pozivom ili porukom na mail, najkasniji rok otkazivanja je 3 dana."
+			"q": "Hoću da otkažem termin?",
+			"a": "Termin možete otkazati pozivom ili porukom, najkasnije 3 dana prije početka Vaše rezervacije."
 		}
 	},
-
 	"Footer": {
 		"company_title": "Kompanija",
 		"partner_company_title": "Partnerska Kompanija",
-		"links_title": "Linkovi"
+		"links_title": "Linkovi",
+		"privacy_policy_label": "Politika Privatnosti",
+		"terms_of_service_label": "Uslovi Korištenja",
+		"sitemap_label": "Sitemapa",
+		"social_title": "Mreže"
 	}
 }

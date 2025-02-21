@@ -1,3 +1,4 @@
+import { LightBulbIcon } from '@heroicons/react/24/outline';
 import { useTranslations } from 'next-intl';
 
 export default function Cards() {
@@ -8,7 +9,10 @@ export default function Cards() {
 	return ranges.map((range, i) => (
 		<div key={i} className='card bg-base-200 shadow-md'>
 			<div className='card-body p-5'>
-				<span className='badge badge-sm badge-success'>{t(range + '.tip')}</span>
+				<span className='badge badge-sm badge-success gap-1'>
+					<LightBulbIcon className='stroke-success-content size-4' />
+					{t(range + '.tip')}
+				</span>
 				<h2 className='my-5 text-center text-3xl font-medium'>{t(range + '.label')}</h2>
 				<div className='bg-secondary rounded-box text-secondary-content px-10 py-4'>
 					<div className='text-center text-4xl font-bold'>

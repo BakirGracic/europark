@@ -1,14 +1,116 @@
 {
 	"Metadata": {
-		"title": "Naslov",
-		"description": "Opis"
+		"title": "EuroPark | Best Airport Parking in Sarajevo",
+		"description": "Safe and affordable parking near Sarajevo Airport. 24/7 video surveillance, well-lit, free transfer. Reserve your parking spot now with affordable prices."
 	},
 	"Navbar": {
-		"cta": "Rezerviši"
+		"cta": "Book"
 	},
 	"Hero": {
-		"title": "Najbolji parking u gradu",
-		"description": "EuroPark je sigurno mjesto za parkiranje vašeg vozila. Na udaljenosti od par minuta do Sarajevskog aerodroma, posjedujemo visoke sigurnosne mjere, profesionalnu uslugu i transport.",
-		"cta": "Rezerviši već danas"
+		"title": "Best airport parking in Sarajevo",
+		"description": "EuroPark is a safe place to park your vehicle. We are a couple minutes away from Sarajevo Airport, we have high-security measures, professional service, and free transport.",
+		"cta": "Book a spot now"
+	},
+	"Reasons": {
+		"section_title": "Why EuroPark",
+		"1": {
+			"title": "Safety",
+			"points": {
+				"1": "Top-notch security equipment",
+				"2": "Professional personnel",
+				"3": "24/7 video surveillance"
+			}
+		},
+		"2": {
+			"title": "Location",
+			"points": {
+				"1": "3 min from the airport",
+				"2": "Accessible location",
+				"3": "Free transfer"
+			}
+		},
+		"3": {
+			"title": "Service",
+			"points": {
+				"1": "You are our priority",
+				"2": "Easy booking",
+				"3": "Guaranteed vehicle security"
+			}
+		}
+	},
+	"Timeline": {
+		"section_title": "Simple Booking",
+		"step": "Step",
+		"1": {
+			"title": "Book",
+			"text": "Using our online contacts, easily book your spot online. Our team will contact you for confirmation and prepare everything for your arrival."
+		},
+		"2": {
+			"title": "Park",
+			"text": "Upon arrival, park your vehicle worry-free in our parking lot. We have arranged a free transfer to the airport for you in just a few minutes."
+		},
+		"3": {
+			"title": "Pick Up",
+			"text": "Upon your return, we will wait for you at the airport and arrange a transfer to the parking lot, where we will greet you, hand over the keys, and wish good luck."
+		}
+	},
+	"Pricelist": {
+		"section_title": "Affordable Prices",
+		"1to5": {
+			"tip": "Short trip",
+			"label": "1 to 5 days",
+			"price_bam": "11",
+			"price_eur": "5.5"
+		},
+		"6to10": {
+			"tip": "Most popular",
+			"label": "6 to 10 days",
+			"price_bam": "10",
+			"price_eur": "5"
+		},
+		"11to15": {
+			"tip": "Holiday",
+			"label": "11 to 15 days",
+			"price_bam": "9",
+			"price_eur": "4.5"
+		},
+		"16to30": {
+			"tip": "Extended absence",
+			"label": "16 to 30 days",
+			"price_bam": "8",
+			"price_eur": "4"
+		}
+	},
+	"FAQ": {
+		"section_title": "Frequently Asked Questions",
+		"1": {
+			"q": "How to reach EuroPark?",
+			"a": "We are located at Braće Mulić BB street, a few hundred meters from Sarajevo Airport."
+		},
+		"2": {
+			"q": "When and how do I pay?",
+			"a": "Payment for our services is made after your vehicle is parked and once we are sure everything is in order. Payment is with cash in KM currency."
+		},
+		"3": {
+			"q": "What if I overstay?",
+			"a": "If you do not collect your car by the agreed date, each additional day will incur a charge of 10KM (5€)."
+		},
+		"4": {
+			"q": "What about in case of damage?",
+			"a": "Your vehicle is safe and we guarantee its protection. In the event of unforeseen circumstances not under our responsibility causing damage to your vehicle, we will not bear the costs. For more details, please read the Terms of Use page."
+		},
+		"5": {
+			"q": "I want to cancel my booking?",
+			"a": "You can cancel your booking by giving us a call or a message, at least 3 days prior to the start of your booking."
+		}
+	},
+	"Footer": {
+		"company_title": "Company",
+		"partner_company_title": "Partner Company",
+		"links_title": "Links",
+		"privacy_policy_label": "Privacy Policy",
+		"terms_of_service_label": "Terms of Service",
+		"sitemap_label": "Sitemap",
+		"social_title": "Social Media"
 	}
 }

@@ -2,10 +2,11 @@ import type { Metadata } from 'next';
 import type { Viewport } from 'next';
 
 export const coreMetadataObject: Metadata = {
-	title: '',
-	description: '',
+	title: 'EuroPark | Najbolji aerodromski parking u Sarajevu',
+	description:
+		'Siguran i pristupačan parking kod Sarajevskog aerodroma. Video nadzor 24/7, osvjetljeno, besplatan transport. Rezervišite svoje parking mjesto unaprijed po najpovoljnijim cijenama.',
 	applicationName: 'EuroPark',
-	authors: [{ name: '', url: `${process.env.NEXT_PUBLIC_APP_URL}/` }],
+	authors: [{ name: 'EuroPark', url: `${process.env.NEXT_PUBLIC_APP_URL}/` }],
 	creator: 'EuroPark',
 	publisher: 'EuroPark',
 	alternates: {
@@ -17,8 +18,9 @@ export const coreMetadataObject: Metadata = {
 		}
 	},
 	openGraph: {
-		title: '',
-		description: '',
+		title: 'EuroPark | Najbolji aerodromski parking u Sarajevu',
+		description:
+			'Siguran i pristupačan parking kod Sarajevskog aerodroma. Video nadzor 24/7, osvjetljeno, besplatan transport. Rezervišite svoje parking mjesto unaprijed po najpovoljnijim cijenama.',
 		url: `${process.env.NEXT_PUBLIC_APP_URL}/`,
 		siteName: 'EuroPark',
 		images: [
@@ -29,7 +31,7 @@ export const coreMetadataObject: Metadata = {
 				alt: 'EuroPark OpenGraph Image'
 			}
 		],
-		locale: '',
+		locale: 'bs',
 		type: 'website'
 	},
 	robots: {
@@ -53,6 +55,5 @@ export const coreMetadataObject: Metadata = {
 };
 
 export const coreViewportObject: Viewport = {
-	themeColor: '#F7F5F3',
 	colorScheme: 'light dark'
 };

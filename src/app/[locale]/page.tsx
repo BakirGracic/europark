@@ -5,7 +5,7 @@ import { type Metadata } from 'next';
 import Navbar from '@/features/navbar/components/Navbar';
 import Hero from '@/features/hero/components/Hero';
 import Contact from '@/features/floating/components/Contact';
-import Indicator from '@/features/floating/components/Indicator';
+import Indicator from '@/features/hero/components/Indicator';
 import Slideshow from '@/features/hero/components/Slideshow';
 import Reasons from '@/features/reasons/components/Reasons';
 import Timeline from '@/features/timeline/components/Timeline';

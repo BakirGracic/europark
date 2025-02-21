@@ -14,7 +14,7 @@ export default function Contact() {
 				<Image src={ViberPNG} alt='Viber Logo' height={28} width={28} />
 			</NextLink>
 			<NextLink
-				href='https://wa.me/+38761487818'
+				href='https://wa.me/38761487818'
 				target='_blank'
 				className='btn btn-circle btn-xl !border-none bg-[#2CD46B] shadow-lg'
 			>

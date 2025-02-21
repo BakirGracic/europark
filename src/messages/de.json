@@ -1,14 +1,116 @@
 {
 	"Metadata": {
-		"title": "Naslov",
-		"description": "Opis"
+		"title": "EuroPark | Bester Flughafenparkplatz in Sarajevo",
+		"description": "Sicheres und günstiges Parken am Flughafen Sarajevo. 24/7 Videoüberwachung, gut beleuchtet, kostenloser Transfer. Reservieren Sie Ihren Parkplatz jetzt zu günstigen Preisen."
 	},
 	"Navbar": {
-		"cta": "Rezerviši"
+		"cta": "Reservieren"
 	},
 	"Hero": {
-		"title": "Najbolji parking u gradu",
-		"description": "EuroPark je sigurno mjesto za parkiranje vašeg vozila. Na udaljenosti od par minuta do Sarajevskog aerodroma, posjedujemo visoke sigurnosne mjere, profesionalnu uslugu i transport.",
-		"cta": "Rezerviši već danas"
+		"title": "Bester Flughafenparkplatz in Sarajevo",
+		"description": "EuroPark ist ein sicherer Ort für Ihr Fahrzeug. Wir sind nur wenige Minuten vom Flughafen Sarajevo entfernt, verfügen über hohe Sicherheitsstandards, professionellen Service und kostenlosen Transfer.",
+		"cta": "Jetzt reservieren"
+	},
+	"Reasons": {
+		"section_title": "Warum EuroPark",
+		"1": {
+			"title": "Sicherheit",
+			"points": {
+				"1": "Hochwertige Sicherheitsausrüstung",
+				"2": "Professionelles Personal",
+				"3": "24/7 Videoüberwachung"
+			}
+		},
+		"2": {
+			"title": "Standort",
+			"points": {
+				"1": "3 Min. vom Flughafen",
+				"2": "Gut erreichbare Lage",
+				"3": "Kostenloser Transfer"
+			}
+		},
+		"3": {
+			"title": "Service",
+			"points": {
+				"1": "Sie sind unsere Priorität",
+				"2": "Einfache Buchung",
+				"3": "Garantierte Fahrzeugsicherheit"
+			}
+		}
+	},
+	"Timeline": {
+		"section_title": "Einfacher Prozess",
+		"step": "Schritt",
+		"1": {
+			"title": "Buchen",
+			"text": "Buchen Sie einfach online über unsere Kontakte. Unser Team wird Sie zur Bestätigung kontaktieren und alles für Ihre Ankunft vorbereiten."
+		},
+		"2": {
+			"title": "Parken",
+			"text": "Bei Ihrer Ankunft parken Sie Ihr Fahrzeug sorglos auf unserem Parkplatz. Wir organisieren einen kostenlosen Transfer zum Flughafen in wenigen Minuten."
+		},
+		"3": {
+			"title": "Abholen",
+			"text": "Bei Ihrer Rückkehr erwarten wir Sie am Flughafen und organisieren den Transfer zum Parkplatz, wo wir Sie begrüßen, die Schlüssel übergeben und eine gute Weiterreise wünschen."
+		}
+	},
+	"Pricelist": {
+		"section_title": "Günstige Preise",
+		"1to5": {
+			"tip": "Kurzreise",
+			"label": "1 bis 5 Tage",
+			"price_bam": "11",
+			"price_eur": "5.5"
+		},
+		"6to10": {
+			"tip": "Beliebteste Option",
+			"label": "6 bis 10 Tage",
+			"price_bam": "10",
+			"price_eur": "5"
+		},
+		"11to15": {
+			"tip": "Urlaubszeit",
+			"label": "11 bis 15 Tage",
+			"price_bam": "9",
+			"price_eur": "4.5"
+		},
+		"16to30": {
+			"tip": "Längere Abwesenheit",
+			"label": "16 bis 30 Tage",
+			"price_bam": "8",
+			"price_eur": "4"
+		}
+	},
+	"FAQ": {
+		"section_title": "Häufige Fragen",
+		"1": {
+			"q": "Wie erreiche ich EuroPark?",
+			"a": "Wir befinden uns in der Straße Braće Mulić BB, wenige hundert Meter vom Flughafen Sarajevo entfernt."
+		},
+		"2": {
+			"q": "Wann und wie bezahle ich?",
+			"a": "Die Bezahlung erfolgt nach dem Parken Ihres Fahrzeugs und sobald alles in Ordnung ist. Die Zahlung erfolgt in bar in KM-Währung."
+		},
+		"3": {
+			"q": "Was passiert bei Überschreitung?",
+			"a": "Wenn Sie Ihr Auto nicht zum vereinbarten Datum abholen, wird für jeden weiteren Tag eine Gebühr von 10KM (5€) berechnet."
+		},
+		"4": {
+			"q": "Was ist bei Schäden?",
+			"a": "Ihr Fahrzeug ist sicher und wir garantieren seinen Schutz. Bei unvorhersehbaren Schäden, die nicht in unserer Verantwortung liegen, übernehmen wir keine Kosten. Weitere Details finden Sie in den Nutzungsbedingungen."
+		},
+		"5": {
+			"q": "Ich möchte meine Buchung stornieren?",
+			"a": "Sie können Ihre Buchung per Anruf oder Nachricht mindestens 3 Tage vor Buchungsbeginn stornieren."
+		}
+	},
+	"Footer": {
+		"company_title": "Unternehmen",
+		"partner_company_title": "Partnerunternehmen",
+		"links_title": "Links",
+		"privacy_policy_label": "Datenschutzerklärung",
+		"terms_of_service_label": "Nutzungsbedingungen",
+		"sitemap_label": "Sitemap",
+		"social_title": "Soziale Medien"
 	}
 }
