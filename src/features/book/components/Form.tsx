@@ -21,11 +21,18 @@ export default function Form() {
 	};
 
 	return (
-		<form className='flex items-center justify-center' action={formAction}>
+		<form
+			className='flex items-center justify-center'
+			action={formAction}
+			onSubmit={() => {
+				setDate(undefined);
+			}}
+		>
 			<div className='fieldset bg-base-200 border-base-300 rounded-box max-w-min border p-4'>
 				{/* name */}
 				<label className='fieldset-label'>{t('Name.tip')}</label>
 				<input
+					required
 					name='name'
 					disabled={isPending}
 					type='text'
@@ -36,6 +43,7 @@ export default function Form() {
 				{/* contact */}
 				<label className='fieldset-label'>{t('Contact.tip')}</label>
 				<input
+					required
 					name='contact'
 					disabled={isPending}
 					type='text'
@@ -46,6 +54,9 @@ export default function Form() {
 				{/* date */}
 				<label className='fieldset-label'>{t('Date.tip')}</label>
 				<DayPicker
+					required={true}
+					min={2}
+					disabled={{ before: new Date() }}
 					className='react-day-picker border-base-content/20 mx-auto w-min border-2'
 					mode='range'
 					timeZone='Europe/Sarajevo'
@@ -53,8 +64,8 @@ export default function Form() {
 					selected={date}
 					onSelect={setDate}
 				/>
-				<input type='hidden' name='date-from' defaultValue={date?.from?.toString()} />
-				<input type='hidden' name='date-to' defaultValue={date?.to?.toString()} />
+				<input type='hidden' name='date_from' value={date?.from?.toString() ?? ''} />
+				<input type='hidden' name='date_to' value={date?.to?.toString() ?? ''} />
 
 				{/* message */}
 				<label className='fieldset-label'>{t('Message.tip')}</label>

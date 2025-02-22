@@ -16,18 +16,13 @@ export async function sendAction(
 
 	console.log('formFields', formFields);
 
-	const formatDate = (dateStr: string) => {
-		const date = new Date(dateStr);
-		return date.toLocaleDateString('bs', { day: '2-digit', month: '2-digit', year: 'numeric' });
-	};
-
 	const formattedMessage = `
 <b>Ime:</b> ${formFields.name}
 <b>Kontakt:</b> ${formFields.contact}
-<b>Od:</b> ${formatDate(formFields.date_from.toString())}
-<b>Do:</b> ${formatDate(formFields.date_to.toString())}
+<b>Od:</b> ${new Date(formFields.date_from.toString()).toLocaleDateString('bs')}
+<b>Do:</b> ${new Date(formFields.date_to.toString()).toLocaleDateString('bs')}
 <b>Napomena:</b> ${formFields.message}
-`;
+    `;
 
 	const response = await fetch(
 		`https://api.telegram.org/bot${process.env.TELEGRAM_BOT_TOKEN}/sendMessage`,
