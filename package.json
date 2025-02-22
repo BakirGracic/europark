@@ -5,7 +5,7 @@
 	"scripts": {
 		"dev": "rm -rf .next && next dev --turbopack --experimental-https",
 		"build": "next build",
-		"start": "NODE_ENV=production node server.js",
+		"start": "next build && NODE_ENV=production node server.js",
 		"lint": "next lint",
 		"prettier": "prettier --write '**/*.*'",
 		"update": "npx npm-check-updates -u && npm i",
