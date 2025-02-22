@@ -5,16 +5,13 @@
 	"scripts": {
 		"dev": "rm -rf .next && next dev --turbopack --experimental-https",
 		"build": "next build",
-		"start": "next build && NODE_ENV=production node server.js",
+		"start": "next start",
 		"lint": "next lint",
 		"prettier": "prettier --write '**/*.*'",
 		"update": "npx npm-check-updates -u && npm i",
 		"tsc": "tsc --noEmit"
 	},
 	"dependencies": {
-		"@fortawesome/fontawesome-svg-core": "^6.7.2",
-		"@fortawesome/free-brands-svg-icons": "^6.7.2",
-		"@fortawesome/react-fontawesome": "^0.2.2",
 		"@tailwindcss/postcss": "^4.0.8",
 		"@thumbmarkjs/thumbmarkjs": "^0.19.1",
 		"next": "15.1.7",
@@ -25,6 +22,9 @@
 		"swiper": "^11.2.4"
 	},
 	"devDependencies": {
+        "@fortawesome/fontawesome-svg-core": "^6.7.2",
+		"@fortawesome/free-brands-svg-icons": "^6.7.2",
+		"@fortawesome/react-fontawesome": "^0.2.2",
 		"@eslint/eslintrc": "^3",
 		"@heroicons/react": "^2.2.0",
 		"@tailwindcss/typography": "^0.5.16",
