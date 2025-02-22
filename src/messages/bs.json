@@ -81,6 +81,27 @@
 			"price_eur": "4"
 		}
 	},
+	"Form": {
+		"section_title": "Rezerviši Online",
+		"Name": {
+			"tip": "Ime za vašu rezervaciju*",
+			"placeholder": "Damir Damirović"
+		},
+		"Contact": {
+			"tip": "Vaši kontakt podaci (email/broj)*",
+			"placeholder": "061 222 333 ili ime@gmail.com"
+		},
+		"Date": {
+			"tip": "Datumi dolaska i odlaska*"
+		},
+		"Message": {
+			"tip": "Napomene",
+			"placeholder": "Želite li nam nešto još reći?"
+		},
+		"submit_text": "Rezerviši",
+		"response_success": "Vaša rezervacija je uspješno poslana",
+		"response_error": "Došlo je do greške prilikom slanja vaše rezervacije"
+	},
 	"FAQ": {
 		"section_title": "Česta Pitanja",
 		"1": {

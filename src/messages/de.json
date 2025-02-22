@@ -81,6 +81,27 @@
 			"price_eur": "4"
 		}
 	},
+	"Form": {
+		"section_title": "Online Reservieren",
+		"Name": {
+			"tip": "Name für Ihre Reservierung*",
+			"placeholder": "Max Mustermann"
+		},
+		"Contact": {
+			"tip": "Ihre Kontaktdaten (E-Mail/Telefon)*",
+			"placeholder": "061 222 333 oder name@gmail.com"
+		},
+		"Date": {
+			"tip": "An- und Abreisedatum*"
+		},
+		"Message": {
+			"tip": "Notizen",
+			"placeholder": "Zusätzliche Anmerkungen?"
+		},
+		"submit_text": "Jetzt reservieren",
+		"response_success": "Ihre Reservierung wurde erfolgreich übermittelt",
+		"response_error": "Beim Senden Ihrer Reservierung ist ein Fehler aufgetreten"
+	},
 	"FAQ": {
 		"section_title": "Häufige Fragen",
 		"1": {

@@ -81,6 +81,27 @@
 			"price_eur": "4"
 		}
 	},
+	"Form": {
+		"section_title": "Book Online",
+		"Name": {
+			"tip": "Name for your reservation*",
+			"placeholder": "John Doe"
+		},
+		"Contact": {
+			"tip": "Your contact detail (email/phone)*",
+			"placeholder": "061 222 333 or name@gmail.com"
+		},
+		"Date": {
+			"tip": "Arrival and departure dates*"
+		},
+		"Message": {
+			"tip": "Notes",
+			"placeholder": "Any additional notes?"
+		},
+		"submit_text": "Book now",
+		"response_success": "Your reservation was successfully placed",
+		"response_error": "There was an error sending your reservation"
+	},
 	"FAQ": {
 		"section_title": "Frequently Asked Questions",
 		"1": {

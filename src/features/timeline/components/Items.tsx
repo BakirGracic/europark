@@ -12,7 +12,7 @@ export default function Items() {
 				<div className='timeline-middle'>
 					<CheckCircleIcon className='size-6' />
 				</div>
-				<div className='timeline-end bg-base-200 timeline-box hover:outline-secondary mt-2 !border-none shadow-md hover:outline-2'>
+				<div className='timeline-end bg-base-200 timeline-box hover:outline-secondary mt-2 !border-none shadow-md transition-all hover:outline-2'>
 					<div className='mb-2 text-center text-lg font-medium'>{t('1.title')}</div>
 					<div className='max-w-40'>{t('1.text')}</div>
 				</div>
@@ -21,7 +21,7 @@ export default function Items() {
 			{/* 2 */}
 			<li>
 				<hr />
-				<div className='timeline-start bg-base-200 timeline-box hover:outline-secondary mb-2 !border-none shadow-md hover:outline-2'>
+				<div className='timeline-start bg-base-200 timeline-box hover:outline-secondary mb-2 !border-none shadow-md transition-all hover:outline-2'>
 					<div className='mb-2 text-center text-lg font-medium'>{t('2.title')}</div>
 					<div className='max-w-40'>{t('2.text')}</div>
 				</div>
@@ -38,7 +38,7 @@ export default function Items() {
 				<div className='timeline-middle'>
 					<CheckCircleIcon className='size-6' />
 				</div>
-				<div className='timeline-end bg-base-200 timeline-box hover:outline-secondary mt-2 !border-none shadow-md hover:outline-2'>
+				<div className='timeline-end bg-base-200 timeline-box hover:outline-secondary mt-2 !border-none shadow-md transition-all hover:outline-2'>
 					<div className='mb-2 text-center text-lg font-medium'>{t('3.title')}</div>
 					<div className='max-w-40'>{t('3.text')}</div>
 				</div>

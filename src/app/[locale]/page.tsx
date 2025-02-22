@@ -10,8 +10,8 @@ import Slideshow from '@/features/hero/components/Slideshow';
 import Reasons from '@/features/reasons/components/Reasons';
 import Timeline from '@/features/timeline/components/Timeline';
 import Pricelist from '@/features/pricelist/components/Pricelist';
+import Book from '@/features/book/components/Book';
 import FAQ from '@/features/faq/components/FAQ';
-// forma ovdje
 import Footer from '@/features/footer/components/Footer';
 
 export async function generateMetadata({
@@ -51,7 +51,7 @@ export default function Homepage() {
 			<Reasons />
 			<Timeline />
 			<Pricelist />
-			{/* forma ovdje */}
+			<Book />
 			<FAQ />
 			<Footer />
 		</>
