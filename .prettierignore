@@ -8,3 +8,4 @@ public
 .prettierignore
 package-lock.json
 tsconfig.tsbuildinfo
+*.txt

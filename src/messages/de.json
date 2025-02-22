@@ -135,5 +135,13 @@
 		"terms_of_service_label": "Nutzungsbedingungen",
 		"sitemap_label": "Sitemap",
 		"social_title": "Soziale Medien"
+	},
+	"PrivacyPolicy": {
+		"cta": "Zurück zur Startseite",
+		"title": "Datenschutzerklärung"
+	},
+	"TermsOfService": {
+		"cta": "Zurück zur Startseite",
+		"title": "Nutzungsbedingungen"
 	}
 }

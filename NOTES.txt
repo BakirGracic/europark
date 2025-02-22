@@ -1,0 +1,3 @@
+get telegram bot chat id here
+
+https://api.telegram.org/bot%7BBOT_TOKEN_HERE%7D/getUpdates

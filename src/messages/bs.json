@@ -135,5 +135,13 @@
 		"terms_of_service_label": "Uslovi Korištenja",
 		"sitemap_label": "Sitemapa",
 		"social_title": "Mreže"
+	},
+	"PrivacyPolicy": {
+		"cta": "Nazad na početnu",
+		"title": "Politika Privatnosti"
+	},
+	"TermsOfService": {
+		"cta": "Nazad na početnu",
+		"title": "Uslovi Korištenja"
 	}
 }

@@ -135,5 +135,13 @@
 		"terms_of_service_label": "Terms of Service",
 		"sitemap_label": "Sitemap",
 		"social_title": "Social Media"
+	},
+	"PrivacyPolicy": {
+		"cta": "Back to home",
+		"title": "Privacy Policy"
+	},
+	"TermsOfService": {
+		"cta": "Back to home",
+		"title": "Terms of Service"
 	}
 }
