@@ -14,7 +14,7 @@ export default function Cards() {
 					{t(range + '.tip')}
 				</span>
 				<h2 className='my-5 text-center text-3xl font-medium'>{t(range + '.label')}</h2>
-				<div className='bg-secondary rounded-box text-secondary-content px-10 py-4'>
+				<div className='bg-secondary text-secondary-content rounded-xl px-10 py-4'>
 					<div className='text-center text-4xl font-bold'>
 						{t(range + '.price_bam')}&nbsp;KM
 					</div>

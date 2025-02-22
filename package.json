@@ -16,6 +16,7 @@
 		"@fortawesome/free-brands-svg-icons": "^6.7.2",
 		"@fortawesome/react-fontawesome": "^0.2.2",
 		"@tailwindcss/postcss": "^4.0.8",
+		"@thumbmarkjs/thumbmarkjs": "^0.19.1",
 		"next": "15.1.7",
 		"next-intl": "^3.26.5",
 		"react": "^19.0.0",

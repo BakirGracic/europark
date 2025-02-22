@@ -1,3 +1,3 @@
-export type BookFormStatus = 'success' | 'error' | undefined;
+export type BookFormStatus = 'success' | string | undefined;
 
-export type BookFormResponse = 'success' | 'error';
+export type BookFormResponse = 'success' | string;

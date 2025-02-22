@@ -100,7 +100,9 @@
 		},
 		"submit_text": "Rezerviši",
 		"response_success": "Vaša rezervacija je uspješno poslana",
-		"response_error": "Došlo je do greške prilikom slanja vaše rezervacije"
+		"response_error_bot": "Detektovana sumnjiva aktivnost, molimo pokušajte ponovo",
+		"response_error_cooldown": "Molimo pokušajte ponovo za par minuta",
+		"response_error_send": "Došlo je do greške prilikom slanja vaše rezervacije"
 	},
 	"FAQ": {
 		"section_title": "Česta Pitanja",
