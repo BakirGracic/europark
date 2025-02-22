@@ -46,9 +46,10 @@ export default function PrivacyPolicy() {
 				<section>
 					<h2>Uvod</h2>
 					<p>
-						EuroPark ("mi", "nas" ili "naš") štiti vašu privatnost dok koristite našu
-						uslugu aerodromskog parkiranja. Ova Politika privatnosti objašnjava kako
-						prikupljamo i koristimo informacije u skladu sa GDPR propisima.
+						EuroPark (&quot;mi&quot;, &quot;nas&quot; ili &quot;naš&quot;) štiti vašu
+						privatnost dok koristite našu uslugu aerodromskog parkiranja. Ova Politika
+						privatnosti objašnjava kako prikupljamo i koristimo informacije u skladu sa
+						GDPR propisima.
 					</p>
 				</section>
 
@@ -59,7 +60,10 @@ export default function PrivacyPolicy() {
 					<p>Koristimo jedan funkcionalni kolačić za pamćenje vašeg izbora jezika:</p>
 					<ul>
 						<li>Postavlja se samo prilikom promjene jezika</li>
-						<li>Pohranjuje samo jezičku preferencu (npr. "bs" ili "en")</li>
+						<li>
+							Pohranjuje samo jezičku preferencu (npr. &quot;bs&quot; ili
+							&quot;en&quot;)
+						</li>
 						<li>Čuva se lokalno na vašem uređaju</li>
 						<li>Možete ga izbrisati preko postavki web preglednika</li>
 					</ul>

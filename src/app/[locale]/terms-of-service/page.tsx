@@ -47,17 +47,18 @@ export default function TermsOfService() {
 				<section>
 					<h2>Prihvaćanje Uvjeta</h2>
 					<p>
-						Korištenjem usluga EuroPark ("usluga", "servis") smatra se da ste pročitali,
-						razumjeli i pristali na ove Uvjete. Ako ne prihvatate ove uvjete, nemojte
-						koristiti naš servis.
+						Korištenjem usluga EuroPark (&quot;usluga&quot;, &quot;servis&quot;) smatra
+						se da ste pročitali, razumjeli i pristali na ove Uvjete. Ako ne prihvatate
+						ove uvjete, nemojte koristiti naš servis.
 					</p>
 				</section>
 
 				<section>
 					<h2>Opis Usluge</h2>
 					<p>
-						Pružamo uslugu rezervacije parking mjesta u blizini "Međunarodni aerodrom
-						Sarajevo" (ili "Sarajevo International Airport" kooda "SJJ"), uključujući:
+						Pružamo uslugu rezervacije parking mjesta u blizini &quot;Međunarodni
+						aerodrom Sarajevo&quot; (ili &quot;Sarajevo International Airport&quot;
+						kooda &quot;SJJ&quot;), uključujući:
 					</p>
 					<ul>
 						<li>Online rezervaciju parking termina</li>

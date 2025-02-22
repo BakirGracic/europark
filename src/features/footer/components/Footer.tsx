@@ -66,7 +66,7 @@ export default function Footer() {
 			<footer className='footer sm:footer-horizontal footer-center text-base-content p-4'>
 				<aside>
 					<p>
-						{new Date().getFullYear()} EuroPark &middot; By{' '}
+						{new Date().getFullYear()} EuroPark &middot; Made By
 						<NextLink href='https://bakir.dev' target='_blank' className='link'>
 							Bakir
 						</NextLink>

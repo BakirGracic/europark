@@ -55,5 +55,5 @@ export const coreMetadataObject: Metadata = {
 };
 
 export const coreViewportObject: Viewport = {
-	colorScheme: 'light dark'
+	colorScheme: 'dark light'
 };
