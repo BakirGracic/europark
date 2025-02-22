@@ -1,0 +1,37 @@
+name: Next.js CD Pipeline for PRODUCTION
+
+concurrency:
+    group: production
+    cancel-in-progress: true
+
+on:
+    push:
+        branches:
+            - main
+    workflow_dispatch:
+
+jobs:
+    build_and_deploy_prod:
+        runs-on: self-hosted
+        environment: production
+
+        steps:
+            - name: Checkout
+              uses: actions/checkout@v4
+
+            - name: Use Node.js
+              uses: actions/setup-node@v4
+
+            - name: Install Dependencies
+              run: npm ci
+
+            - name: Build
+              run: |
+                  npx next telemetry disable
+                  npm run build
+
+            - name: Run
+              env:
+                  TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+                  TELEGRAM_BOT_CHAT_ID: ${{ secrets.TELEGRAM_BOT_CHAT_ID }}
+              run: pm2 reload all --update-env
