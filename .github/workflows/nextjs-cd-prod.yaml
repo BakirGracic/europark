@@ -31,7 +31,4 @@ jobs:
                   npm run build
 
             - name: Run
-              env:
-                  TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
-                  TELEGRAM_BOT_CHAT_ID: ${{ secrets.TELEGRAM_BOT_CHAT_ID }}
               run: pm2 reload all --update-env

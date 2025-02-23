@@ -118,9 +118,9 @@ export default function PrivacyPolicy() {
 					<p>
 						Za pitanja o privatnosti:
 						<br />
-						Email: harunkarahmet81@gmail.com
+						Email: europarkdoo@gmail.com
 						<br />
-						Adresa: Braće Mulić BB
+						Adresa: Aleja Bosne Srebrene do br. 109
 						<br />
 						Telefon: +387 61 487 818
 					</p>

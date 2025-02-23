@@ -13,7 +13,6 @@
 	},
 	"dependencies": {
 		"@tailwindcss/postcss": "^4.0.8",
-		"@thumbmarkjs/thumbmarkjs": "^0.19.1",
 		"next": "15.1.7",
 		"next-intl": "^3.26.5",
 		"react": "^19.0.0",
