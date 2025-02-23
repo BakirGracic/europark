@@ -69,15 +69,31 @@ export default function Form() {
 					required={true}
 					min={1}
 					disabled={{ before: new Date() }}
-					className='react-day-picker outline-base-content/20 mx-auto w-min border-2 border-none outline-2'
+					className='react-day-picker outline-base-content/20 mx-auto mb-2 w-min border-2 border-none outline-2'
 					mode='range'
 					timeZone='Europe/Sarajevo'
 					locale={datePickerLocales[locale]}
 					selected={date}
 					onSelect={setDate}
 				/>
-				<input type='hidden' name='Datum od' value={date?.from?.toString() ?? ''} />
-				<input type='hidden' name='Datum do' value={date?.to?.toString() ?? ''} />
+				<input
+					type='hidden'
+					name='Datum od'
+					defaultValue={date?.from?.toLocaleDateString('bs', {
+						day: '2-digit',
+						month: '2-digit',
+						year: 'numeric'
+					})}
+				/>
+				<input
+					type='hidden'
+					name='Datum do'
+					defaultValue={date?.to?.toLocaleDateString('bs', {
+						day: '2-digit',
+						month: '2-digit',
+						year: 'numeric'
+					})}
+				/>
 
 				{/* message */}
 				<label className='fieldset-label'>{t('Message.tip')}</label>
