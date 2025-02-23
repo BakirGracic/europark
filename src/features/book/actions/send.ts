@@ -41,7 +41,7 @@ export async function sendAction(
 	// validate rate limit by browser fingerprint
 	if (!isNaN(Date.parse(String(formFields.hhash)))) {
 		const hashTime = new Date(String(formFields.hhash));
-		const hourAgo = new Date(Date.now() - 180000);
+		const hourAgo = new Date(Date.now() - 60000);
 		if (hashTime > hourAgo) return t('response_error_cooldown');
 	}
 
