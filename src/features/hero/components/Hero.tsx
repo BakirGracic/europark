@@ -6,7 +6,7 @@ export default function Hero({ children }: { children: React.ReactNode }) {
 
 	return (
 		<div className='hero relative min-h-screen'>
-			<div className='hero-content z-50 text-center text-[#f7f5f3] break-word'>
+			<div className='hero-content break-word z-50 text-center text-[#f7f5f3]'>
 				<div className='max-w-xl'>
 					<h1 className='text-5xl font-bold'>{t('title')}</h1>
 					<p className='py-6 font-medium'>{t('description')}</p>
