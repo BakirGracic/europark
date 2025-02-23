@@ -36,13 +36,16 @@ export default function Footer() {
 				<nav>
 					<p className='footer-title'>{t('social_title')}</p>
 					<div className='grid grid-flow-col gap-4'>
-						<NextLink href='#' target='_blank'>
+						<NextLink
+							href='https://www.instagram.com/europark_sarajevo/'
+							target='_blank'
+						>
 							<FontAwesomeIcon
 								icon={faInstagram}
 								className='stroke-base-content size-8'
 							/>
 						</NextLink>
-						<NextLink href='#' target='_blank'>
+						<NextLink href='https://facebook.com/europark.doo.sarajevo' target='_blank'>
 							<FontAwesomeIcon
 								icon={faFacebookF}
 								className='stroke-base-content size-8'
