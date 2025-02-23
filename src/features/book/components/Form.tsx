@@ -79,20 +79,24 @@ export default function Form() {
 				<input
 					type='hidden'
 					name='Datum od'
-					defaultValue={date?.from?.toLocaleDateString('bs', {
-						day: '2-digit',
-						month: '2-digit',
-						year: 'numeric'
-					})}
+					value={
+						date?.from?.toLocaleDateString('bs', {
+							day: '2-digit',
+							month: '2-digit',
+							year: 'numeric'
+						}) ?? ''
+					}
 				/>
 				<input
 					type='hidden'
 					name='Datum do'
-					defaultValue={date?.to?.toLocaleDateString('bs', {
-						day: '2-digit',
-						month: '2-digit',
-						year: 'numeric'
-					})}
+					value={
+						date?.to?.toLocaleDateString('bs', {
+							day: '2-digit',
+							month: '2-digit',
+							year: 'numeric'
+						}) ?? ''
+					}
 				/>
 
 				{/* message */}
