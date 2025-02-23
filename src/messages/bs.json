@@ -4,12 +4,12 @@
 		"description": "Siguran i pristupačan parking kod Sarajevskog aerodroma. Video nadzor 24/7, osvjetljeno, besplatan transport. Rezervišite svoje parking mjesto unaprijed po najpovoljnijim cijenama."
 	},
 	"Navbar": {
-		"cta": "Rezerviši"
+		"cta": "Rezervišite"
 	},
 	"Hero": {
 		"title": "Najbolji parking u gradu",
 		"description": "EuroPark je sigurno mjesto za parkiranje vašeg vozila. Udaljeni smo par minuta do Sarajevskog aerodroma, posjedujemo visoke sigurnosne mjere, profesionalnu uslugu i besplatan transport.",
-		"cta": "Rezerviši sada"
+		"cta": "Rezervišite sada"
 	},
 	"Reasons": {
 		"section_title": "Zašto EuroPark",
@@ -42,16 +42,16 @@
 		"section_title": "Jednostavan Proces",
 		"step": "Korak",
 		"1": {
-			"title": "Rezerviši",
-			"text": "Pomoću naših online kontakata jednostavno online rezerviši svoje mjesto. Naš tim će te kontaktirati za potvrdu i spremiti sve za tvoj dolazak."
+			"title": "Rezervišite",
+			"text": "Pomoću naših online kontakata jednostavno online rezervišite svoje mjesto. Naš tim će Vas kontaktirati za potvrdu i spremiti sve za Vaš dolazak."
 		},
 		"2": {
 			"title": "Parkiraj",
-			"text": "Dolaskom bezbrižno parkiraj svoje vozilo na našem parkingu. Za tebe smo osigurali besplatan transfer do aerodroma za svega par minuta."
+			"text": "Dolaskom bezbrižno parkirajte svoje vozilo na našem parkingu. Za Vas smo osigurali besplatan transfer do aerodroma za svega par minuta."
 		},
 		"3": {
 			"title": "Preuzmi",
-			"text": "Po tvom povratku, čekamo te na aerodromu i osiguravamo transfer do parkinga, gdje se pozdravljamo, uručujemo ključeve i poželimo sreću."
+			"text": "Po Vašem povratku, čekamo Vas na aerodromu i osiguravamo transfer do parkinga, gdje se pozdravljamo, uručujemo ključeve i poželimo sreću."
 		}
 	},
 	"Pricelist": {
@@ -82,9 +82,9 @@
 		}
 	},
 	"Form": {
-		"section_title": "Rezerviši Online",
+		"section_title": "Rezervišite Online",
 		"Name": {
-			"tip": "Ime za vašu rezervaciju*",
+			"tip": "Ime za Vašu rezervaciju*",
 			"placeholder": "Damir Damirović"
 		},
 		"Contact": {
@@ -98,11 +98,7 @@
 			"tip": "Napomene",
 			"placeholder": "Želite li nam nešto još reći?"
 		},
-		"submit_text": "Rezerviši",
-		"response_success": "Vaša rezervacija je uspješno poslana",
-		"response_error_bot": "Detektovana sumnjiva aktivnost, molimo pokušajte ponovo",
-		"response_error_cooldown": "Molimo pokušajte ponovo za par minuta",
-		"response_error_send": "Došlo je do greške prilikom slanja vaše rezervacije"
+		"submit_text": "Rezervišite"
 	},
 	"FAQ": {
 		"section_title": "Česta Pitanja",
@@ -119,7 +115,7 @@
 			"a": "U slučaju da ne preuzmete Vaše auto do dogovorenog datuma, svaki naredni dan se računa uz doplatu od 10KM (5€)."
 		},
 		"4": {
-			"q": "A u slučaju oštećenja?",
+			"q": "Šta u slučaju oštećenja?",
 			"a": "Vaše vozilo je na sigurnom i garantujemo zaštitu Vašeg vozila. Ukoliko nepredviđene situacije koje nisu naša odgovornost oštete vaše vozilo, mi ne snosimo troškove. Za detaljnije informacije pročitajte stranicu Uslova Korištenja."
 		},
 		"5": {

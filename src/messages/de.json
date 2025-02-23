@@ -98,11 +98,7 @@
 			"tip": "Notizen",
 			"placeholder": "Zusätzliche Anmerkungen?"
 		},
-		"submit_text": "Jetzt reservieren",
-		"response_success": "Ihre Reservierung wurde erfolgreich versendet",
-		"response_error_bot": "Verdächtige Aktivität erkannt, bitte versuchen Sie es erneut",
-		"response_error_cooldown": "Bitte versuchen Sie es in ein paar Minuten erneut",
-		"response_error_send": "Beim Senden Ihrer Reservierung ist ein Fehler aufgetreten"
+		"submit_text": "Jetzt reservieren"
 	},
 	"FAQ": {
 		"section_title": "Häufige Fragen",

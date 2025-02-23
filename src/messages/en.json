@@ -98,11 +98,7 @@
 			"tip": "Notes",
 			"placeholder": "Any additional notes?"
 		},
-		"submit_text": "Book now",
-		"response_success": "Your reservation was successfully sent",
-		"response_error_bot": "Suspicious activity detected, please try again",
-		"response_error_cooldown": "Please try again in 3 minutes",
-		"response_error_send": "There was an error sending your reservation"
+		"submit_text": "Book now"
 	},
 	"FAQ": {
 		"section_title": "Frequently Asked Questions",
