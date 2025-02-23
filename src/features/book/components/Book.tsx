@@ -7,7 +7,7 @@ export default function Book() {
 
 	return (
 		<section className='SectionBox'>
-			<h2 className='SectionTitle'>
+			<h2 id='reserve' className='SectionTitle'>
 				<span>{t('section_title')}</span>
 				<ArrowDownOnSquareIcon className='size-8' />
 			</h2>
