@@ -127,6 +127,9 @@
 			"a": "Sie können Ihre Buchung per Anruf oder Nachricht mindestens 3 Tage vor Buchungsbeginn stornieren."
 		}
 	},
+    "Location": {
+        "section_title": "Unser Standort"
+	},
 	"Footer": {
 		"company_title": "Unternehmen",
 		"partner_company_title": "Partnerunternehmen",

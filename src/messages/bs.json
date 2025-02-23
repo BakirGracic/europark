@@ -127,6 +127,9 @@
 			"a": "Termin možete otkazati pozivom ili porukom, najkasnije 3 dana prije početka Vaše rezervacije."
 		}
 	},
+	"Location": {
+		"section_title": "Gdje Se Nalazimo"
+	},
 	"Footer": {
 		"company_title": "Kompanija",
 		"partner_company_title": "Partnerska Kompanija",

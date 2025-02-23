@@ -127,6 +127,9 @@
 			"a": "You can cancel your booking by giving us a call or a message, at least 3 days prior to the start of your booking."
 		}
 	},
+	"Location": {
+		"section_title": "Where To Find Us"
+	},
 	"Footer": {
 		"company_title": "Company",
 		"partner_company_title": "Partner Company",

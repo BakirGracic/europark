@@ -13,6 +13,7 @@ import Pricelist from '@/features/pricelist/components/Pricelist';
 import Book from '@/features/book/components/Book';
 import FAQ from '@/features/faq/components/FAQ';
 import Footer from '@/features/footer/components/Footer';
+import Location from '@/features/location/components/Location';
 
 export async function generateMetadata({
 	params
@@ -53,6 +54,7 @@ export default function Homepage() {
 			<Pricelist />
 			<Book />
 			<FAQ />
+			<Location />
 			<Footer />
 		</>
 	);
