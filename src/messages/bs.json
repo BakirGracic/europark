@@ -92,7 +92,7 @@
 			"tip": "Vaš email*",
 			"placeholder": "ime@gmail.com"
 		},
-        "Phone": {
+		"Phone": {
 			"tip": "Vaši broj",
 			"placeholder": "061 222 333"
 		},
@@ -104,7 +104,7 @@
 			"placeholder": "Želite li nam nešto još reći?"
 		},
 		"submit_text": "Rezervišite",
-        "success_message": "Vaša rezervacija je uspješno zaprimljena!",
+		"success_message": "Vaša rezervacija je uspješno zaprimljena!",
 		"error_message": "Došlo je do greške pri spašavanju vaše rezervacije. Molimo pokušajte ponovo!"
 	},
 	"FAQ": {
