@@ -23,14 +23,14 @@ export default function Form() {
 		if (state.status === undefined) {
 			return;
 		} else if (state.status === 'ok') {
-			toast.custom((id) => (
+			toast.custom(() => (
 				<div role='alert' className='alert alert-success alert-soft w-sm'>
 					<CheckBadgeIcon className='h-6 w-6' />
 					<span>{t('success_message')}</span>
 				</div>
 			));
 		} else {
-			toast.custom((id) => (
+			toast.custom(() => (
 				<div role='alert' className='alert alert-error alert-soft w-sm'>
 					<ExclamationTriangleIcon className='h-6 w-6' />
 					<span>{t('error_message')}</span>
@@ -62,6 +62,7 @@ export default function Form() {
 					type='text'
 					className='input mb-2 w-full'
 					placeholder={t('Name.placeholder')}
+					disabled={isPending}
 				/>
 
 				{/* email */}
@@ -74,6 +75,7 @@ export default function Form() {
 					type='email'
 					className='input mb-2 w-full'
 					placeholder={t('Email.placeholder')}
+					disabled={isPending}
 				/>
 
 				{/* phone */}
@@ -86,6 +88,7 @@ export default function Form() {
 					type='tel'
 					className='input mb-2 w-full'
 					placeholder={t('Phone.placeholder')}
+					disabled={isPending}
 				/>
 
 				{/* date */}
@@ -130,10 +133,15 @@ export default function Form() {
 					name='message'
 					className='textarea h-24 w-full !rounded-xl'
 					placeholder={t('Message.placeholder')}
+					disabled={isPending}
 				></textarea>
 
 				{/* submit */}
-				<button type='submit' className='btn btn-primary mt-4 text-center'>
+				<button
+					type='submit'
+					className='btn btn-primary mt-4 text-center'
+					disabled={isPending}
+				>
 					{t('submit_text')}
 				</button>
 			</div>

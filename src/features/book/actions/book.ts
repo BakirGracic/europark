@@ -2,7 +2,6 @@
 
 import { BookFormStatus } from '@/features/book/types/status';
 const nodemailer = require('nodemailer');
-const fs = require('fs');
 import path from 'path';
 import { readFileSync } from 'fs';
 
