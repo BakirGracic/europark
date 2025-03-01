@@ -56,7 +56,7 @@
 	},
 	"Pricelist": {
 		"section_title": "Günstige Preise",
-        "per_day": "tag",
+		"per_day": "tag",
 		"1to5": {
 			"tip": "Kurzreise",
 			"label": "1 bis 5 Tage",
@@ -88,9 +88,13 @@
 			"tip": "Name für Ihre Reservierung*",
 			"placeholder": "Max Mustermann"
 		},
-		"Contact": {
-			"tip": "Ihre Kontaktdaten (E-Mail/Telefon)*",
-			"placeholder": "061 222 333 oder name@gmail.com"
+		"Email": {
+			"tip": "Ihre E-Mail*",
+			"placeholder": "beispiel@gmail.com"
+		},
+		"Phone": {
+			"tip": "Ihre Telefonnummer",
+			"placeholder": "061 222 333"
 		},
 		"Date": {
 			"tip": "An- und Abreisedatum*"

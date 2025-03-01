@@ -88,9 +88,13 @@
 			"tip": "Name for your reservation*",
 			"placeholder": "John Doe"
 		},
-		"Contact": {
-			"tip": "Your contact detail (email/phone)*",
-			"placeholder": "061 222 333 or name@gmail.com"
+		"Email": {
+			"tip": "Your email*",
+			"placeholder": "ime@gmail.com"
+		},
+        "Phone": {
+			"tip": "Your phone number",
+			"placeholder": "061 222 333"
 		},
 		"Date": {
 			"tip": "Arrival and departure dates*"

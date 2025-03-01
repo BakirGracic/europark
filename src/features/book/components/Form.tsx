@@ -22,45 +22,42 @@ export default function Form() {
 	};
 
 	return (
-		<form
-			className='flex items-center justify-center'
-			action='https://api.web3forms.com/submit'
-			method='POST'
-			onSubmit={handleSubmit}
-		>
+		<form className='flex items-center justify-center' onSubmit={handleSubmit}>
 			<div className='fieldset bg-base-200 border-base-300 rounded-box max-w-min border p-4'>
-				{/* key */}
-				<input
-					type='hidden'
-					name='access_key'
-					value={process.env.NEXT_PUBLIC_WEB3FORMS_KEY}
-				/>
-
-				{/* meta */}
-				<input type='hidden' name='subject' value='Nova kontak forma EUROPARK' />
-				<input type='hidden' name='from_name' value='EuroPark.ba' />
-
-				{/* honeypot */}
-				<input type='checkbox' name='botcheck' className='hidden' />
-
 				{/* name */}
 				<label className='fieldset-label'>{t('Name.tip')}</label>
 				<input
 					required
-					name='Ime/Prezime'
+					minLength={2}
+					maxLength={100}
+					name='name'
 					type='text'
 					className='input mb-2 w-full'
 					placeholder={t('Name.placeholder')}
 				/>
 
-				{/* contact */}
-				<label className='fieldset-label'>{t('Contact.tip')}</label>
+				{/* email */}
+				<label className='fieldset-label'>{t('Email.tip')}</label>
 				<input
 					required
-					name='Kontakt Podatak'
-					type='text'
+					minLength={5}
+					maxLength={100}
+					name='email'
+					type='email'
 					className='input mb-2 w-full'
-					placeholder={t('Contact.placeholder')}
+					placeholder={t('Email.placeholder')}
+				/>
+
+				{/* phone */}
+				<label className='fieldset-label'>{t('Phone.tip')}</label>
+				<input
+					required
+					minLength={6}
+					maxLength={30}
+					name='phone'
+					type='tel'
+					className='input mb-2 w-full'
+					placeholder={t('Phone.placeholder')}
 				/>
 
 				{/* date */}
@@ -78,7 +75,7 @@ export default function Form() {
 				/>
 				<input
 					type='hidden'
-					name='Datum od'
+					name='date_from'
 					value={
 						date?.from?.toLocaleDateString('bs', {
 							day: '2-digit',
@@ -89,7 +86,7 @@ export default function Form() {
 				/>
 				<input
 					type='hidden'
-					name='Datum do'
+					name='date_to'
 					value={
 						date?.to?.toLocaleDateString('bs', {
 							day: '2-digit',
@@ -102,7 +99,7 @@ export default function Form() {
 				{/* message */}
 				<label className='fieldset-label'>{t('Message.tip')}</label>
 				<textarea
-					name='Napomena'
+					name='message'
 					className='textarea h-24 w-full !rounded-xl'
 					placeholder={t('Message.placeholder')}
 				></textarea>

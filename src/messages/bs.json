@@ -88,9 +88,13 @@
 			"tip": "Ime za Vašu rezervaciju*",
 			"placeholder": "Damir Damirović"
 		},
-		"Contact": {
-			"tip": "Vaši kontakt podaci (email/broj)*",
-			"placeholder": "061 222 333 ili ime@gmail.com"
+		"Email": {
+			"tip": "Vaš email*",
+			"placeholder": "ime@gmail.com"
+		},
+        "Phone": {
+			"tip": "Vaši broj",
+			"placeholder": "061 222 333"
 		},
 		"Date": {
 			"tip": "Datumi dolaska i odlaska*"
