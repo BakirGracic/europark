@@ -31,4 +31,9 @@ jobs:
                   npm run build
 
             - name: Run
+              env:
+                  NODEMAILER_SERVER: ${{ secrets.NODEMAILER_SERVER }}
+                  NODEMAILER_SYSTEM_EMAIL: ${{ secrets.NODEMAILER_SYSTEM_EMAIL }}
+                  NODEMAILER_PASSWORD: ${{ secrets.NODEMAILER_PASSWORD }}
+                  NODEMAILER_RESERVATIONS_EMAIL: ${{ secrets.NODEMAILER_RESERVATIONS_EMAIL }}
               run: pm2 reload all --update-env
