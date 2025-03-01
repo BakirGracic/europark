@@ -1,3 +1,16 @@
 body {
 	@apply antialiased;
 }
+
+.rdp-range_start .rdp-day_button {
+	color: var(--color-base-100) !important;
+	background-color: var(--color-base-content) !important;
+}
+.rdp-range_end .rdp-day_button {
+	color: var(--color-base-100) !important;
+	background-color: var(--color-base-content) !important;
+}
+.rdp-range_middle .rdp-day_button {
+	color: var(--color-base-100) !important;
+	background-color: var(--color-base-content) !important;
+}
