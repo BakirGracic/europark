@@ -56,6 +56,7 @@
 	},
 	"Pricelist": {
 		"section_title": "Pristupačne Cijene",
+		"per_day": "dan",
 		"1to5": {
 			"tip": "Kratko putovanje",
 			"label": "1 do 5 dana",

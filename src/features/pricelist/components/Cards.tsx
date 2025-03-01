@@ -16,10 +16,10 @@ export default function Cards() {
 				<h2 className='my-5 text-center text-3xl font-medium'>{t(range + '.label')}</h2>
 				<div className='bg-secondary text-secondary-content rounded-xl px-10 py-4'>
 					<div className='text-center text-4xl font-bold'>
-						{t(range + '.price_bam')}&nbsp;KM
+						{t(range + '.price_bam')}&nbsp;KM / {t('per_day')}
 					</div>
 					<div className='text-center text-2xl font-semibold'>
-						{t(range + '.price_eur')}&nbsp;&euro;
+						{t(range + '.price_eur')}&nbsp;&euro; / {t('per_day')}
 					</div>
 				</div>
 			</div>
