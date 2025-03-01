@@ -9,3 +9,6 @@ public
 package-lock.json
 tsconfig.tsbuildinfo
 *.txt
+
+*.html
+*.txt

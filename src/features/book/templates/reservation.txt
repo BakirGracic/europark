@@ -1,0 +1,7 @@
+Nova rezervacija:
+Ime: {{NAME}}
+Email: {{EMAIL}}
+Telefon: {{PHONE}}
+Datum od: {{DATE_FROM}}
+Datum do: {{DATE_DO}}
+Poruka: {{MESSAGE}}
