@@ -1,12 +1,16 @@
 'use client';
 
-import { useState } from 'react';
+import { useActionState, useEffect, useState } from 'react';
 import { useLocale, useTranslations } from 'next-intl';
+import { bookAction } from '@/features/book/actions/book';
+import { toast } from 'sonner';
+import { CheckBadgeIcon, ExclamationTriangleIcon } from '@heroicons/react/24/solid';
 import { type DateRange, DayPicker } from 'react-day-picker';
 import { bs, enUS, de } from 'react-day-picker/locale';
 import { type Locale } from '@/i18n/routing';
 
 export default function Form() {
+	const [state, formAction, isPending] = useActionState(bookAction, {});
 	const [date, setDate] = useState<DateRange | undefined>();
 	const locale = useLocale() as Locale;
 	const t = useTranslations('Form');
@@ -15,6 +19,26 @@ export default function Form() {
 		setDate(undefined);
 	};
 
+	useEffect(() => {
+		if (state.status === undefined) {
+			return;
+		} else if (state.status === 'ok') {
+			toast.custom((id) => (
+				<div role='alert' className='alert alert-success alert-soft w-sm'>
+					<CheckBadgeIcon className='h-6 w-6' />
+					<span>{t('success_message')}</span>
+				</div>
+			));
+		} else {
+			toast.custom((id) => (
+				<div role='alert' className='alert alert-error alert-soft w-sm'>
+					<ExclamationTriangleIcon className='h-6 w-6' />
+					<span>{t('error_message')}</span>
+				</div>
+			));
+		}
+	}, [state]);
+
 	const datePickerLocales = {
 		bs: bs,
 		en: enUS,
@@ -22,7 +46,11 @@ export default function Form() {
 	};
 
 	return (
-		<form className='flex items-center justify-center' onSubmit={handleSubmit}>
+		<form
+			action={formAction}
+			className='flex items-center justify-center'
+			onSubmit={handleSubmit}
+		>
 			<div className='fieldset bg-base-200 border-base-300 rounded-box max-w-min border p-4'>
 				{/* name */}
 				<label className='fieldset-label'>{t('Name.tip')}</label>

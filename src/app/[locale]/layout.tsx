@@ -4,6 +4,7 @@ import { coreViewportObject } from '@/lib/metadata';
 import { getMessages, setRequestLocale } from 'next-intl/server';
 import { NextIntlClientProvider } from 'next-intl';
 import { notFound } from 'next/navigation';
+import { Toaster } from 'sonner';
 import { type Locale, routing } from '@/i18n/routing';
 
 export const viewport = coreViewportObject;
@@ -33,6 +34,7 @@ export default async function RootLayout({
 		<html lang={locale}>
 			<body className={`${InterFont.variable}`}>
 				<NextIntlClientProvider messages={messages}>
+					<Toaster position='bottom-center' expand visibleToasts={3} />
 					<main>{children}</main>
 				</NextIntlClientProvider>
 			</body>

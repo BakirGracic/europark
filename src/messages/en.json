@@ -56,7 +56,7 @@
 	},
 	"Pricelist": {
 		"section_title": "Affordable Prices",
-        "per_day": "day",
+		"per_day": "day",
 		"1to5": {
 			"tip": "Short trip",
 			"label": "1 to 5 days",
@@ -90,9 +90,9 @@
 		},
 		"Email": {
 			"tip": "Your email*",
-			"placeholder": "ime@gmail.com"
+			"placeholder": "email@example.com"
 		},
-        "Phone": {
+		"Phone": {
 			"tip": "Your phone number",
 			"placeholder": "061 222 333"
 		},
@@ -103,7 +103,9 @@
 			"tip": "Notes",
 			"placeholder": "Any additional notes?"
 		},
-		"submit_text": "Book now"
+		"submit_text": "Book now",
+		"success_message": "Your reservation has been successfully received!",
+		"error_message": "An error occurred while saving your reservation. Please try again!"
 	},
 	"FAQ": {
 		"section_title": "Frequently Asked Questions",

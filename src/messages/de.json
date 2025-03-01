@@ -82,28 +82,30 @@
 			"price_eur": "4"
 		}
 	},
-	"Form": {
-		"section_title": "Online Reservieren",
-		"Name": {
-			"tip": "Name für Ihre Reservierung*",
-			"placeholder": "Max Mustermann"
-		},
-		"Email": {
-			"tip": "Ihre E-Mail*",
-			"placeholder": "beispiel@gmail.com"
-		},
-		"Phone": {
-			"tip": "Ihre Telefonnummer",
-			"placeholder": "061 222 333"
-		},
-		"Date": {
-			"tip": "An- und Abreisedatum*"
-		},
-		"Message": {
-			"tip": "Notizen",
-			"placeholder": "Zusätzliche Anmerkungen?"
-		},
-		"submit_text": "Jetzt reservieren"
+    "Form": {
+        "section_title": "Online Reservieren",
+        "Name": {
+            "tip": "Name für Ihre Reservierung*",
+            "placeholder": "Max Mustermann"
+        },
+        "Email": {
+            "tip": "Ihre E-Mail*",
+            "placeholder": "beispiel@gmail.com"
+        },
+        "Phone": {
+            "tip": "Ihre Telefonnummer",
+            "placeholder": "061 222 333"
+        },
+        "Date": {
+            "tip": "An- und Abreisedatum*"
+        },
+        "Message": {
+            "tip": "Notizen",
+            "placeholder": "Zusätzliche Anmerkungen?"
+        },
+        "submit_text": "Jetzt reservieren",
+        "success_message": "Ihre Reservierung wurde erfolgreich entgegengenommen!",
+        "error_message": "Beim Speichern Ihrer Reservierung ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut!"
 	},
 	"FAQ": {
 		"section_title": "Häufige Fragen",

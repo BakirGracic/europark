@@ -103,7 +103,9 @@
 			"tip": "Napomene",
 			"placeholder": "Želite li nam nešto još reći?"
 		},
-		"submit_text": "Rezervišite"
+		"submit_text": "Rezervišite",
+        "success_message": "Vaša rezervacija je uspješno zaprimljena!",
+		"error_message": "Došlo je do greške pri spašavanju vaše rezervacije. Molimo pokušajte ponovo!"
 	},
 	"FAQ": {
 		"section_title": "Česta Pitanja",
