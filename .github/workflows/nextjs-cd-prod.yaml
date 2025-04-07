@@ -1,4 +1,4 @@
-name: Next.js CD Pipeline for PRODUCTION
+name: Next.js CD for PRODUCTION
 
 concurrency:
   group: production
@@ -11,7 +11,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  build_and_deploy_prod:
+  build_deploy_prod:
     runs-on: self-hosted
     environment: production
 
@@ -19,8 +19,10 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Use Node.js
+      - name: Setup Node.js
         uses: actions/setup-node@v4
+        with:
+          cache: 'npm'
 
       - name: Install Dependencies
         run: npm ci
