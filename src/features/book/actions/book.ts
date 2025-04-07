@@ -16,7 +16,7 @@ export async function bookAction(state: BookFormStatus, formData: FormData): Pro
 	};
 
 	try {
-		const transporter = nodemailer.createTransport({
+		const transporter = await nodemailer.createTransport({
 			host: process.env.NODEMAILER_SERVER,
 			port: 465,
 			secure: true,
@@ -26,7 +26,7 @@ export async function bookAction(state: BookFormStatus, formData: FormData): Pro
 			}
 		});
 
-		transporter.sendMail({
+		await transporter.sendMail({
 			from: `"EuroPark d.o.o." <${process.env.NODEMAILER_SYSTEM_EMAIL}>`,
 			to: formFields.email,
 			subject: 'Vaša rezervacija je uspješno spašena!',
@@ -79,7 +79,7 @@ export async function bookAction(state: BookFormStatus, formData: FormData): Pro
 			readFileSync(path.join(process.cwd(), 'src/features/book/templates/reservation.html'), 'utf8')
 		);
 
-		transporter.sendMail({
+		await transporter.sendMail({
 			from: `"EuroPark d.o.o." <${process.env.NODEMAILER_SYSTEM_EMAIL}>`,
 			to: process.env.NODEMAILER_RESERVATIONS_EMAIL,
 			subject: 'Nova Rezervacija [europark.ba]',
