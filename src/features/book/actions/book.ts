@@ -1,14 +1,11 @@
 'use server';
 
-import { BookFormStatus } from '@/features/book/types/status';
 const nodemailer = require('nodemailer');
 import path from 'path';
 import { readFileSync } from 'fs';
+import { type BookFormStatus } from '@/features/book/types/status';
 
-export async function bookAction(
-	state: BookFormStatus,
-	formData: FormData
-): Promise<BookFormStatus> {
+export async function bookAction(state: BookFormStatus, formData: FormData): Promise<BookFormStatus> {
 	const formFields = {
 		name: formData.get('name') as string,
 		email: formData.get('email') as string,
@@ -63,10 +60,7 @@ export async function bookAction(
 		'{{MESSAGE}}': formFields.message
 	}).reduce(
 		(txt, [placeholder, value]) => txt.replace(new RegExp(placeholder, 'g'), value),
-		readFileSync(
-			path.join(process.cwd(), 'src/features/book/templates/reservation.txt'),
-			'utf8'
-		)
+		readFileSync(path.join(process.cwd(), 'src/features/book/templates/reservation.txt'), 'utf8')
 	);
 	const reservation_html = Object.entries({
 		'{{NAME}}': formFields.name,
@@ -85,10 +79,7 @@ export async function bookAction(
 		'{{MESSAGE}}': formFields.message
 	}).reduce(
 		(html, [placeholder, value]) => html.replace(new RegExp(placeholder, 'g'), value),
-		readFileSync(
-			path.join(process.cwd(), 'src/features/book/templates/reservation.html'),
-			'utf8'
-		)
+		readFileSync(path.join(process.cwd(), 'src/features/book/templates/reservation.html'), 'utf8')
 	);
 
 	transporter

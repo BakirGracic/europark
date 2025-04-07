@@ -46,10 +46,9 @@ export default function PrivacyPolicy() {
 				<section>
 					<h2>Uvod</h2>
 					<p>
-						EuroPark (&quot;mi&quot;, &quot;nas&quot; ili &quot;naš&quot;) štiti vašu
-						privatnost dok koristite našu uslugu aerodromskog parkiranja. Ova Politika
-						privatnosti objašnjava kako prikupljamo i koristimo informacije u skladu sa
-						GDPR propisima.
+						EuroPark (&quot;mi&quot;, &quot;nas&quot; ili &quot;naš&quot;) štiti vašu privatnost
+						dok koristite našu uslugu aerodromskog parkiranja. Ova Politika privatnosti objašnjava
+						kako prikupljamo i koristimo informacije u skladu sa GDPR propisima.
 					</p>
 				</section>
 
@@ -60,10 +59,7 @@ export default function PrivacyPolicy() {
 					<p>Koristimo jedan funkcionalni kolačić za pamćenje vašeg izbora jezika:</p>
 					<ul>
 						<li>Postavlja se samo prilikom promjene jezika</li>
-						<li>
-							Pohranjuje samo jezičku preferencu (npr. &quot;bs&quot; ili
-							&quot;en&quot;)
-						</li>
+						<li>Pohranjuje samo jezičku preferencu (npr. &quot;bs&quot; ili &quot;en&quot;)</li>
 						<li>Čuva se lokalno na vašem uređaju</li>
 						<li>Možete ga izbrisati preko postavki web preglednika</li>
 					</ul>
@@ -97,9 +93,7 @@ export default function PrivacyPolicy() {
 						<li>Ograničenje obrade (brisanjem preko web pretraživača Vašeg uređaja)</li>
 						<li>Prigovor na obradu (na email)</li>
 					</ul>
-					<p>
-						Za ostvarivanje ovih prava kontaktirajte nas putem informacija u nastavku.
-					</p>
+					<p>Za ostvarivanje ovih prava kontaktirajte nas putem informacija u nastavku.</p>
 				</section>
 
 				<section>
@@ -129,8 +123,8 @@ export default function PrivacyPolicy() {
 				<section>
 					<h2>Promjene Politike</h2>
 					<p>
-						Obavijestit ćemo vas o značajnim promjenama putem obavještenja na našoj web
-						stranici. Preporučujemo redovnu provjeru ove stranice.
+						Obavijestit ćemo vas o značajnim promjenama putem obavještenja na našoj web stranici.
+						Preporučujemo redovnu provjeru ove stranice.
 					</p>
 				</section>
 			</div>

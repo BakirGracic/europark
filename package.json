@@ -3,14 +3,17 @@
 	"version": "1.0.0",
 	"private": true,
 	"scripts": {
-		"dev": "rm -rf .next && next dev --turbopack --experimental-https",
+		"nextjs-codemod": "npx @next/codemod@canary upgrade latest",
+		"pkg-update": "npx npm-check-updates -u --format group",
+		"i:clean": "rm -rf node_modules pnpm-lock.yaml; pnpm i",
+		"prettier": "prettier --write .",
+		"dev": "next dev --turbopack --experimental-https",
+		"dev:clean": "rm -rf .next; next dev --turbopack --experimental-https",
 		"build": "next build",
+		"build:clean": "rm -rf .next; next build",
 		"start": "next start",
 		"lint": "next lint",
-		"prettier": "prettier --write '**/*.*'",
-		"update": "npx npm-check-updates -u",
-		"tsc": "tsc --noEmit",
-		"nextjs-codemod": "npx @next/codemod@canary upgrade latest"
+		"tsc": "npx tsc --noEmit; rm -f tsconfig.tsbuildinfo"
 	},
 	"dependencies": {
 		"@fortawesome/fontawesome-svg-core": "^6.7.2",

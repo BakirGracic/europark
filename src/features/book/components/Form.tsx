@@ -46,11 +46,7 @@ export default function Form() {
 	};
 
 	return (
-		<form
-			action={formAction}
-			className='flex items-center justify-center'
-			onSubmit={handleSubmit}
-		>
+		<form action={formAction} className='flex items-center justify-center' onSubmit={handleSubmit}>
 			<div className='fieldset bg-base-200 border-base-300 rounded-box max-w-min border p-4'>
 				{/* name */}
 				<label className='fieldset-label'>{t('Name.tip')}</label>
@@ -137,11 +133,7 @@ export default function Form() {
 				></textarea>
 
 				{/* submit */}
-				<button
-					type='submit'
-					className='btn btn-primary mt-4 text-center'
-					disabled={isPending}
-				>
+				<button type='submit' className='btn btn-primary mt-4 text-center' disabled={isPending}>
 					{t('submit_text')}
 				</button>
 			</div>

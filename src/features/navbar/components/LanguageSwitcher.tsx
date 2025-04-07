@@ -34,17 +34,9 @@ export default function LanguageSwitcher() {
 	return (
 		<div className='dropdown dropdown-end'>
 			<div tabIndex={0} role='button' className='cursor-pointer rounded-full shadow-md'>
-				<Image
-					src={languages[locale].image}
-					width={30}
-					height={30}
-					alt={languages[locale].label}
-				/>
+				<Image src={languages[locale].image} width={30} height={30} alt={languages[locale].label} />
 			</div>
-			<ul
-				tabIndex={0}
-				className='dropdown-content menu bg-base-100 rounded-box w-32 p-2 shadow-md'
-			>
+			<ul tabIndex={0} className='dropdown-content menu bg-base-100 rounded-box w-32 p-2 shadow-md'>
 				{Object.entries(languages).map(([key, { label, image }]) => (
 					<li key={key}>
 						<div

@@ -36,32 +36,17 @@ export default function Footer() {
 				<nav>
 					<p className='footer-title'>{t('social_title')}</p>
 					<div className='grid grid-flow-col gap-4'>
-						<NextLink
-							href='https://www.instagram.com/europark_sarajevo/'
-							target='_blank'
-						>
-							<FontAwesomeIcon
-								icon={faInstagram}
-								className='stroke-base-content size-8'
-							/>
+						<NextLink href='https://www.instagram.com/europark_sarajevo/' target='_blank'>
+							<FontAwesomeIcon icon={faInstagram} className='stroke-base-content size-8' />
 						</NextLink>
 						<NextLink href='https://facebook.com/europark.doo.sarajevo' target='_blank'>
-							<FontAwesomeIcon
-								icon={faFacebookF}
-								className='stroke-base-content size-8'
-							/>
+							<FontAwesomeIcon icon={faFacebookF} className='stroke-base-content size-8' />
 						</NextLink>
 						<NextLink href='viber://chat/?number=+38761487818' target='_blank'>
-							<FontAwesomeIcon
-								icon={faViber}
-								className='stroke-base-content size-8'
-							/>
+							<FontAwesomeIcon icon={faViber} className='stroke-base-content size-8' />
 						</NextLink>
 						<NextLink href='https://wa.me/38761487818' target='_blank'>
-							<FontAwesomeIcon
-								icon={faWhatsapp}
-								className='stroke-base-content size-8'
-							/>
+							<FontAwesomeIcon icon={faWhatsapp} className='stroke-base-content size-8' />
 						</NextLink>
 					</div>
 				</nav>

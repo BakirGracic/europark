@@ -13,8 +13,14 @@ const eslintConfig = [
 	...compat.extends('next/core-web-vitals', 'next/typescript'),
 	{
 		rules: {
-			'@typescript-eslint/no-require-imports': 'off',
-			'react-hooks/exhaustive-deps': 'off'
+			'no-console': 'error',
+			'no-alert': 'error',
+			'react-hooks/exhaustive-deps': 'off',
+			'react/no-multi-comp': 'error',
+			'react/no-unstable-nested-components': 'error',
+			'@typescript-eslint/consistent-type-imports': 'error',
+			'@typescript-eslint/no-wrapper-object-types': 'off',
+			'@typescript-eslint/no-require-imports': 'off'
 		}
 	}
 ];

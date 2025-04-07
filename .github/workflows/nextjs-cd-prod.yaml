@@ -1,39 +1,39 @@
 name: Next.js CD Pipeline for PRODUCTION
 
 concurrency:
-    group: production
-    cancel-in-progress: true
+  group: production
+  cancel-in-progress: true
 
 on:
-    push:
-        branches:
-            - main
-    workflow_dispatch:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
 
 jobs:
-    build_and_deploy_prod:
-        runs-on: self-hosted
-        environment: production
+  build_and_deploy_prod:
+    runs-on: self-hosted
+    environment: production
 
-        steps:
-            - name: Checkout
-              uses: actions/checkout@v4
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
 
-            - name: Use Node.js
-              uses: actions/setup-node@v4
+      - name: Use Node.js
+        uses: actions/setup-node@v4
 
-            - name: Install Dependencies
-              run: npm ci
+      - name: Install Dependencies
+        run: npm ci
 
-            - name: Build
-              run: |
-                  npx next telemetry disable
-                  npm run build
+      - name: Build
+        run: |
+          npx next telemetry disable
+          npm run build
 
-            - name: Run
-              env:
-                  NODEMAILER_SERVER: ${{ secrets.NODEMAILER_SERVER }}
-                  NODEMAILER_SYSTEM_EMAIL: ${{ secrets.NODEMAILER_SYSTEM_EMAIL }}
-                  NODEMAILER_PASSWORD: ${{ secrets.NODEMAILER_PASSWORD }}
-                  NODEMAILER_RESERVATIONS_EMAIL: ${{ secrets.NODEMAILER_RESERVATIONS_EMAIL }}
-              run: pm2 reload all --update-env
+      - name: Run
+        env:
+          NODEMAILER_SERVER: ${{ secrets.NODEMAILER_SERVER }}
+          NODEMAILER_SYSTEM_EMAIL: ${{ secrets.NODEMAILER_SYSTEM_EMAIL }}
+          NODEMAILER_PASSWORD: ${{ secrets.NODEMAILER_PASSWORD }}
+          NODEMAILER_RESERVATIONS_EMAIL: ${{ secrets.NODEMAILER_RESERVATIONS_EMAIL }}
+        run: pm2 reload all --update-env

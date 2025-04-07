@@ -47,18 +47,18 @@ export default function TermsOfService() {
 				<section>
 					<h2>Prihvaćanje Uvjeta</h2>
 					<p>
-						Korištenjem usluga EuroPark (&quot;usluga&quot;, &quot;servis&quot;) smatra
-						se da ste pročitali, razumjeli i pristali na ove Uvjete. Ako ne prihvatate
-						ove uvjete, nemojte koristiti naš servis.
+						Korištenjem usluga EuroPark (&quot;usluga&quot;, &quot;servis&quot;) smatra se da ste
+						pročitali, razumjeli i pristali na ove Uvjete. Ako ne prihvatate ove uvjete, nemojte
+						koristiti naš servis.
 					</p>
 				</section>
 
 				<section>
 					<h2>Opis Usluge</h2>
 					<p>
-						Pružamo uslugu rezervacije parking mjesta u blizini &quot;Međunarodni
-						aerodrom Sarajevo&quot; (ili &quot;Sarajevo International Airport&quot;
-						kooda &quot;SJJ&quot;), uključujući:
+						Pružamo uslugu rezervacije parking mjesta u blizini &quot;Međunarodni aerodrom
+						Sarajevo&quot; (ili &quot;Sarajevo International Airport&quot; kooda &quot;SJJ&quot;),
+						uključujući:
 					</p>
 					<ul>
 						<li>Online rezervaciju parking termina</li>
@@ -71,16 +71,15 @@ export default function TermsOfService() {
 					<h2>Rezervacije i Otkazivanje</h2>
 					<ul>
 						<li>
-							Otkazivanje rezervacije mora biti obavljeno najmanje{' '}
-							<strong>72 sata</strong> prije početka rezervacije
+							Otkazivanje rezervacije mora biti obavljeno najmanje <strong>72 sata</strong>{' '}
+							prije početka rezervacije
 						</li>
 						<li>
-							Kašnjenje u preuzimanju vozila: Naplaćuje se{' '}
-							<strong>10 KM po danu</strong> za svaki dan kašnjenja
+							Kašnjenje u preuzimanju vozila: Naplaćuje se <strong>10 KM po danu</strong> za
+							svaki dan kašnjenja
 						</li>
 						<li>
-							Plaćanje se vrši <strong>gotovinom u BAM valuti</strong> nakon
-							parkiranja vozila
+							Plaćanje se vrši <strong>gotovinom u BAM valuti</strong> nakon parkiranja vozila
 						</li>
 					</ul>
 				</section>
@@ -103,9 +102,7 @@ export default function TermsOfService() {
 						<li>
 							Ne snosimo odgovornost za štetu nastalu uslijed:
 							<ul>
-								<li>
-									Vanjskih faktora (prirodne nepogode, ekstremni vremenski uslovi)
-								</li>
+								<li>Vanjskih faktora (prirodne nepogode, ekstremni vremenski uslovi)</li>
 								<li>Krađe ili oštećenja vozila izvan našeg nadzora</li>
 								<li>Kašnjenja koja nisu posljedica naše nemarnosti</li>
 							</ul>
@@ -131,8 +128,7 @@ export default function TermsOfService() {
 							Referentne cijene su izražene u <strong>eurima (EUR)</strong>
 						</li>
 						<li>
-							Prihvaćamo isključivo <strong>gotovinsko plaćanje</strong> na licu
-							mjesta
+							Prihvaćamo isključivo <strong>gotovinsko plaćanje</strong> na licu mjesta
 						</li>
 						<li>Ne naplaćujemo prethodnu kaparu</li>
 					</ul>
