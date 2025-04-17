@@ -74,7 +74,7 @@ export async function bookAction(state: BookFormStatus, formData: FormData): Pro
 		await transporter.sendMail({
 			from: `"EuroPark d.o.o." <${process.env.NODEMAILER_SYSTEM_EMAIL}>`,
 			to: process.env.NODEMAILER_RESERVATIONS_EMAIL,
-			reply_to: formFields.email,
+			replyTo: formFields.email,
 			subject: 'Nova Rezervacija [europark.ba]',
 			text: reservation_text,
 			html: reservation_html
