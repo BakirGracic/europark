@@ -10,8 +10,16 @@ export async function bookAction(state: BookFormStatus, formData: FormData): Pro
 		name: formData.get('name') as string,
 		email: formData.get('email') as string,
 		phone: formData.get('phone') as string,
-		date_from: formData.get('date_from') as string,
-		date_to: formData.get('date_to') as string,
+		date_from: new Date(formData.get('date_from') as string).toLocaleDateString('bs-BA', {
+			day: '2-digit',
+			month: '2-digit',
+			year: 'numeric'
+		}),
+		date_to: new Date(formData.get('date_to') as string).toLocaleDateString('bs-BA', {
+			day: '2-digit',
+			month: '2-digit',
+			year: 'numeric'
+		}),
 		message: (formData.get('message') as string) || '<nema poruke>'
 	};
 
@@ -44,16 +52,8 @@ export async function bookAction(state: BookFormStatus, formData: FormData): Pro
 			'{{NAME}}': formFields.name,
 			'{{EMAIL}}': formFields.email,
 			'{{PHONE}}': formFields.phone,
-			'{{DATE_FROM}}': new Date(formFields.date_from).toLocaleDateString('bs-BA', {
-				day: '2-digit',
-				month: '2-digit',
-				year: 'numeric'
-			}),
-			'{{DATE_TO}}': new Date(formFields.date_to).toLocaleDateString('bs-BA', {
-				day: '2-digit',
-				month: '2-digit',
-				year: 'numeric'
-			}),
+			'{{DATE_FROM}}': formFields.date_from,
+			'{{DATE_TO}}': formFields.date_to,
 			'{{MESSAGE}}': formFields.message
 		}).reduce(
 			(txt, [placeholder, value]) => txt.replace(new RegExp(placeholder, 'g'), value),
@@ -63,16 +63,8 @@ export async function bookAction(state: BookFormStatus, formData: FormData): Pro
 			'{{NAME}}': formFields.name,
 			'{{EMAIL}}': formFields.email,
 			'{{PHONE}}': formFields.phone,
-			'{{DATE_FROM}}': new Date(formFields.date_from).toLocaleDateString('bs-BA', {
-				day: '2-digit',
-				month: '2-digit',
-				year: 'numeric'
-			}),
-			'{{DATE_TO}}': new Date(formFields.date_to).toLocaleDateString('bs-BA', {
-				day: '2-digit',
-				month: '2-digit',
-				year: 'numeric'
-			}),
+			'{{DATE_FROM}}': formFields.date_from,
+			'{{DATE_TO}}': formFields.date_to,
 			'{{MESSAGE}}': formFields.message
 		}).reduce(
 			(html, [placeholder, value]) => html.replace(new RegExp(placeholder, 'g'), value),
@@ -82,6 +74,7 @@ export async function bookAction(state: BookFormStatus, formData: FormData): Pro
 		await transporter.sendMail({
 			from: `"EuroPark d.o.o." <${process.env.NODEMAILER_SYSTEM_EMAIL}>`,
 			to: process.env.NODEMAILER_RESERVATIONS_EMAIL,
+			reply_to: formFields.email,
 			subject: 'Nova Rezervacija [europark.ba]',
 			text: reservation_text,
 			html: reservation_html
