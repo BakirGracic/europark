@@ -103,23 +103,23 @@ export default function Form() {
 				<input
 					type='hidden'
 					name='date_from'
-					value={
-						date?.from?.toLocaleDateString('bs', {
+					defaultValue={
+						date?.from?.toLocaleDateString('bs-BA', {
 							day: '2-digit',
 							month: '2-digit',
 							year: 'numeric'
-						}) ?? ''
+						})!
 					}
 				/>
 				<input
 					type='hidden'
 					name='date_to'
-					value={
-						date?.to?.toLocaleDateString('bs', {
+					defaultValue={
+						date?.to?.toLocaleDateString('bs-BA', {
 							day: '2-digit',
 							month: '2-digit',
 							year: 'numeric'
-						}) ?? ''
+						})!
 					}
 				/>
 
