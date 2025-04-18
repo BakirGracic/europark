@@ -108,7 +108,7 @@ export default function Form() {
 							day: '2-digit',
 							month: '2-digit',
 							year: 'numeric'
-						})!
+						}) || ''
 					}
 				/>
 				<input
@@ -119,7 +119,7 @@ export default function Form() {
 							day: '2-digit',
 							month: '2-digit',
 							year: 'numeric'
-						})!
+						}) || ''
 					}
 				/>
 
