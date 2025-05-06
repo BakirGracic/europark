@@ -3,10 +3,9 @@ certificates
 node_modules
 public
 **/images/**
+**/templates/**
 .env*
 .gitignore
 .prettierignore
 package-lock.json
 tsconfig.tsbuildinfo
-*.txt
-*.html

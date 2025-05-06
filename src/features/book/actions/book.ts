@@ -1,6 +1,5 @@
 'use server';
 
-const nodemailer = require('nodemailer');
 import path from 'path';
 import { readFileSync } from 'fs';
 import { type BookFormStatus } from '@/features/book/types/status';
@@ -24,18 +23,18 @@ export async function bookAction(state: BookFormStatus, formData: FormData): Pro
 	};
 
 	try {
+		const nodemailer = require('nodemailer');
+
 		const transporter = await nodemailer.createTransport({
-			host: process.env.NODEMAILER_SERVER,
-			port: 465,
-			secure: true,
+			service: 'gmail',
 			auth: {
-				user: process.env.NODEMAILER_SYSTEM_EMAIL,
+				user: process.env.NODEMAILER_GMAIL,
 				pass: process.env.NODEMAILER_PASSWORD
 			}
 		});
 
 		await transporter.sendMail({
-			from: `"EuroPark d.o.o." <${process.env.NODEMAILER_SYSTEM_EMAIL}>`,
+			from: `"EuroPark d.o.o." <${process.env.NODEMAILER_GMAIL}>`,
 			to: formFields.email,
 			subject: 'Vaša rezervacija je uspješno spašena!',
 			text: readFileSync(
@@ -72,8 +71,8 @@ export async function bookAction(state: BookFormStatus, formData: FormData): Pro
 		);
 
 		await transporter.sendMail({
-			from: `"EuroPark d.o.o." <${process.env.NODEMAILER_SYSTEM_EMAIL}>`,
-			to: process.env.NODEMAILER_RESERVATIONS_EMAIL,
+			from: `"EuroPark d.o.o." <${process.env.NODEMAILER_GMAIL}>`,
+			to: process.env.NODEMAILER_GMAIL,
 			replyTo: formFields.email,
 			subject: 'Nova Rezervacija [europark.ba]',
 			text: reservation_text,

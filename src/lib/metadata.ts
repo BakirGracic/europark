@@ -1,5 +1,4 @@
 import type { Metadata } from 'next';
-import type { Viewport } from 'next';
 
 export const coreMetadataObject: Metadata = {
 	title: 'EuroPark | Najbolji aerodromski parking u Sarajevu',
@@ -52,8 +51,4 @@ export const coreMetadataObject: Metadata = {
 		title: 'Weekendica',
 		statusBarStyle: 'black-translucent'
 	}
-};
-
-export const coreViewportObject: Viewport = {
-	colorScheme: 'dark light'
 };

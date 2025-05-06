@@ -100,28 +100,8 @@ export default function Form() {
 					selected={date}
 					onSelect={setDate}
 				/>
-				<input
-					type='hidden'
-					name='date_from'
-					defaultValue={
-						date?.from?.toLocaleDateString('bs-BA', {
-							day: '2-digit',
-							month: '2-digit',
-							year: 'numeric'
-						}) || ''
-					}
-				/>
-				<input
-					type='hidden'
-					name='date_to'
-					defaultValue={
-						date?.to?.toLocaleDateString('bs-BA', {
-							day: '2-digit',
-							month: '2-digit',
-							year: 'numeric'
-						}) || ''
-					}
-				/>
+				<input type='hidden' name='date_from' defaultValue={date?.from?.toDateString()} />
+				<input type='hidden' name='date_to' defaultValue={date?.to?.toDateString()} />
 
 				{/* message */}
 				<label className='fieldset-label'>{t('Message.tip')}</label>
