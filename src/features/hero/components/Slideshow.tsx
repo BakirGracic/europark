@@ -9,9 +9,10 @@ import Image from 'next/image';
 import Slideshow1JPG from '@/images/slideshow/slideshow-1.jpg';
 import Slideshow2JPG from '@/images/slideshow/slideshow-2.jpg';
 import Slideshow3JPG from '@/images/slideshow/slideshow-3.jpg';
+import Slideshow4JPG from '@/images/slideshow/slideshow-4.jpg';
 
 export default function Slideshow() {
-	const slides = [Slideshow1JPG, Slideshow2JPG, Slideshow3JPG];
+	const slides = [Slideshow1JPG, Slideshow2JPG, Slideshow3JPG, Slideshow4JPG];
 
 	return (
 		<Swiper

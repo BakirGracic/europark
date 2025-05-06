@@ -35,7 +35,7 @@ export default async function RootLayout({
 		<html lang={locale}>
 			<body className={`${InterFont.variable} font-body`}>
 				<NextIntlClientProvider messages={messages}>
-					<Toaster position='bottom-center' expand visibleToasts={3} />
+					<Toaster position='top-center' expand visibleToasts={3} />
 					<main>
 						{children}
 						<Analytics />
