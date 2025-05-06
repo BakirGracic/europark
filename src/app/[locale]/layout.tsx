@@ -6,6 +6,7 @@ import { NextIntlClientProvider } from 'next-intl';
 import { notFound } from 'next/navigation';
 import { Toaster } from 'sonner';
 import { type Locale, routing } from '@/i18n/routing';
+import { Analytics } from '@vercel/analytics/react';
 
 export const viewport = coreViewport;
 
@@ -35,7 +36,10 @@ export default async function RootLayout({
 			<body className={`${InterFont.variable} font-body`}>
 				<NextIntlClientProvider messages={messages}>
 					<Toaster position='bottom-center' expand visibleToasts={3} />
-					<main>{children}</main>
+					<main>
+						{children}
+						<Analytics />
+					</main>
 				</NextIntlClientProvider>
 			</body>
 		</html>
