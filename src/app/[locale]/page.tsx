@@ -14,6 +14,7 @@ import Book from '@/features/book/components/Book';
 import FAQ from '@/features/faq/components/FAQ';
 import Footer from '@/features/footer/components/Footer';
 import Location from '@/features/location/components/Location';
+import Script from 'next/script';
 
 export async function generateMetadata({
 	params
@@ -43,6 +44,9 @@ export async function generateMetadata({
 export default function Homepage() {
 	return (
 		<>
+			<Script id='conversion-tag' strategy='beforeInteractive'>
+				{`gtag('event', 'conversion', {'send_to': 'AW-16866396285/VmY2CKCR-8QaEP2Qw-o-'});`}
+			</Script>
 			<Contact />
 			<Hero>
 				<Slideshow />
