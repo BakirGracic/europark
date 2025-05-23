@@ -11,14 +11,24 @@ export default function Contact() {
 				target='_blank'
 				className='btn btn-circle btn-xl !border-none bg-[#643D89] shadow-lg'
 			>
-				<Image src={ViberPNG} alt='Viber Logo' height={28} width={28} />
+				<Image
+					src={ViberPNG}
+					alt='Viber Logo Kontaktirajte Nas Brzo I Jednostavno Preko Vibera Za Najbolji Privatni Parking U Sarajevu'
+					height={28}
+					width={28}
+				/>
 			</NextLink>
 			<NextLink
 				href='https://wa.me/38761487818'
 				target='_blank'
 				className='btn btn-circle btn-xl !border-none bg-[#2CD46B] shadow-lg'
 			>
-				<Image src={WhatsappPNG} alt='Whatsapp Logo' height={28} width={28} />
+				<Image
+					src={WhatsappPNG}
+					alt='Whatsapp Logo Kontaktirajte Nas Brzo I Jednostavno Preko WhatsAppa Za Najbolji Privatni Parking U Sarajevu'
+					height={28}
+					width={28}
+				/>
 			</NextLink>
 		</div>
 	);

@@ -11,7 +11,11 @@ export default function Navbar() {
 	return (
 		<div className='navbar absolute top-0 right-0 left-0 z-50 p-5'>
 			<div className='mr-5 flex-1'>
-				<Image src={LogoPNG} alt='EuroPark Logo' height={40} />
+				<Image
+					src={LogoPNG}
+					alt='EuroPark Logo Najbolji Privatni Parking U Sarajevu Sigurno Jeftino Ljubazno'
+					height={40}
+				/>
 			</div>
 			<div className='flex items-center gap-5'>
 				<ThemeSwitcher />

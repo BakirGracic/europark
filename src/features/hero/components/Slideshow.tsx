@@ -29,7 +29,7 @@ export default function Slideshow() {
 				<SwiperSlide key={i}>
 					<Image
 						src={img}
-						alt={`Slideshow ${i + 1}`}
+						alt={`Slika Najbolji Privatni Parking U Sarajevu ${i + 1}`}
 						className='object-cover brightness-[40%] contrast-[70%]'
 						fill
 					/>

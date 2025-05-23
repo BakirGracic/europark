@@ -15,10 +15,19 @@ export default function Footer() {
 			<footer className='footer sm:footer-horizontal text-base-content mx-auto max-w-5xl p-10'>
 				<nav>
 					<p className='footer-title'>{t('company_title')}</p>
-					<Image src={LogoPNG} alt='EuroPark Logo' height={40} className='mb-5' />
+					<Image
+						src={LogoPNG}
+						alt='EuroPark Logo Najbolji Privatni Parking U Sarajevu Sigurno Jeftino Ljubazno'
+						height={40}
+						className='mb-5'
+					/>
 					<p className='footer-title'>{t('partner_company_title')}</p>
 					<NextLink href='https://euro-rent.ba/' target='_blank'>
-						<Image src={EurorentLogoPNG} alt='EuroRent Logo' height={40} />
+						<Image
+							src={EurorentLogoPNG}
+							alt='EuroRent Logo Najbolji Privatni Parking U Sarajevu Sigurno Jeftino Ljubazno'
+							height={40}
+						/>
 					</NextLink>
 				</nav>
 				<nav>
