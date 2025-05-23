@@ -36,16 +36,27 @@ export default async function RootLayout({
 		<html lang={locale}>
 			<body className={`${InterFont.variable} font-body`}>
 				<Script
-					id='gtag-fetch'
+					id='gtag-fetch-ads'
 					strategy='beforeInteractive'
 					async
 					src='https://www.googletagmanager.com/gtag/js?id=AW-16866396285'
 				></Script>
 				<Script
-					id='gtag-init'
+					id='gtag-init-ads'
 					strategy='beforeInteractive'
 				>{`window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'AW-16866396285');`}</Script>
 
+				<Script
+					id='gtag-fetch-analytics'
+					strategy='beforeInteractive'
+					async
+					src='https://www.googletagmanager.com/gtag/js?id=G-E09QZYVM7C'
+				></Script>
+				<Script
+					id='gtag-init-analytics'
+					strategy='beforeInteractive'
+				>{`window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-E09QZYVM7C');`}</Script>
+				
 				<Script
 					id='homepage-schema-jsonld'
 					type='application/ld+json'
