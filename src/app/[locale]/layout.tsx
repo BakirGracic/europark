@@ -34,17 +34,18 @@ export default async function RootLayout({
 
 	return (
 		<html lang={locale}>
-			<Script
-				id='gtag-fetch'
-				strategy='beforeInteractive'
-				async
-				src='https://www.googletagmanager.com/gtag/js?id=AW-16866396285'
-			></Script>
-			<Script
-				id='gtag-init'
-				strategy='beforeInteractive'
-			>{`window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'AW-16866396285');`}</Script>
 			<body className={`${InterFont.variable} font-body`}>
+				<Script
+					id='gtag-fetch'
+					strategy='beforeInteractive'
+					async
+					src='https://www.googletagmanager.com/gtag/js?id=AW-16866396285'
+				></Script>
+				<Script
+					id='gtag-init'
+					strategy='beforeInteractive'
+				>{`window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'AW-16866396285');`}</Script>
+
 				<NextIntlClientProvider messages={messages}>
 					<Toaster position='top-center' expand visibleToasts={3} />
 					<main>
