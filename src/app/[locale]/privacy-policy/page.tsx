@@ -41,14 +41,14 @@ export default function PrivacyPolicy() {
 			</div>
 			<h1 className='text-center'>{t('title')}</h1>
 			<div>
-				<p>Posljednja ažuriranja: 22.02.2025.</p>
+				<p>Posljednje izmjene: 23.05.2025.</p>
 
 				<section>
 					<h2>Uvod</h2>
 					<p>
 						EuroPark (&quot;mi&quot;, &quot;nas&quot; ili &quot;naš&quot;) štiti vašu privatnost
-						dok koristite našu uslugu aerodromskog parkiranja. Ova Politika privatnosti objašnjava
-						kako prikupljamo i koristimo informacije u skladu sa GDPR propisima.
+						dok koristite našu uslugu aerodromskog parkinga. Ova Politika privatnosti objašnjava
+						kako prikupljamo i koristimo informacije u skladu sa GDPR propisima Europske unije.
 					</p>
 				</section>
 
@@ -56,30 +56,28 @@ export default function PrivacyPolicy() {
 					<h2>Prikupljene Informacije</h2>
 
 					<h3>Kolačići (Cookies)</h3>
-					<p>Koristimo jedan funkcionalni kolačić za pamćenje vašeg izbora jezika:</p>
+					<p>Koristimo jedan (1) funkcionalni kolačić za pamćenje vašeg izbora jezika:</p>
 					<ul>
-						<li>Postavlja se samo prilikom promjene jezika</li>
+						<li>Postavlja se isključivo prilikom promjene jezika</li>
 						<li>Pohranjuje samo jezičku preferencu (npr. &quot;bs&quot; ili &quot;en&quot;)</li>
 						<li>Čuva se lokalno na vašem uređaju</li>
 						<li>Možete ga izbrisati preko postavki web preglednika</li>
-					</ul>
-
-					<h3>Lokalna Pohrana (LocalStorage)</h3>
-					<p>Prilikom slanja obrasca pohranjujemo vremenski pečat:</p>
-					<ul>
-						<li>Sadrži samo datum/vrijeme posljednjeg slanja obrasca</li>
-						<li>Koristi se za sprječavanje duplikata ili zloupotrebe</li>
-						<li>Ažurira se pri svakom novom slanju obrasca</li>
-						<li>Ostaje u vašem pregledniku dok ga ručno ne obrišete</li>
 					</ul>
 				</section>
 
 				<section>
 					<h2>Osnov za Obradu Podataka</h2>
-					<p>Prema GDPR članu 6, obrada podataka se vrši na osnovu:</p>
+					<p>
+						Prema{' '}
+						<a target='_blank' href='https://gdpr-info.eu/art-6-gdpr/'>
+							GDPR članu 6
+						</a>
+						, obrada podataka se vrši na osnovu:
+					</p>
 					<ul>
 						<li>Vašeg pristanka</li>
 						<li>Legitimnog interesa</li>
+						<li>Neophodnosti</li>
 					</ul>
 				</section>
 
@@ -87,37 +85,23 @@ export default function PrivacyPolicy() {
 					<h2>Vaša Prava</h2>
 					<p>Prema GDPR-u imate pravo na:</p>
 					<ul>
-						<li>Pristup pohranjenim podacima (dostupni na Vašem uređaju)</li>
-						<li>Ispravku podataka (preko postavki web pretraživača Vašeg uređaja)</li>
-						<li>Brisanje podataka (preko postavki web pretraživača Vašeg uređaja)</li>
-						<li>Ograničenje obrade (brisanjem preko web pretraživača Vašeg uređaja)</li>
-						<li>Prigovor na obradu (na email)</li>
+						<li>Pristup pohranjenim podacima -&gt; dostupni na Vašem uređaju</li>
+						<li>Ispravku podataka -&gt; preko postavki web pretraživača Vašeg uređaja</li>
+						<li>Brisanje podataka -&gt; preko postavki web pretraživača Vašeg uređaja</li>
+						<li>Ograničenje obrade -&gt; na kontakt email</li>
+						<li>Prigovor na internu obradu -&gt; na kontakt email</li>
 					</ul>
-					<p>Za ostvarivanje ovih prava kontaktirajte nas putem informacija u nastavku.</p>
+					<p>Za ostvarivanje ovih prava kontaktirajte nas putem konkatk informacija u nastavku.</p>
 				</section>
 
 				<section>
 					<h2>Zaštita Podataka</h2>
 					<p>Svi podaci se:</p>
 					<ul>
-						<li>Ne dijele s trećim stranama</li>
-						<li>Ne prenose izvan EU/EEA</li>
+						<li>Ne dijele s trećim stranama i prenose izvan EU/EEA</li>
 						<li>Čuvaju isključivo u vašem pregledniku</li>
-						<li>Obrađuju na našim zaštićenim serverima lociranim u BiH</li>
+						<li>Obrađuju na našim zaštićenim serverima i servisima</li>
 					</ul>
-				</section>
-
-				<section>
-					<h2>Kontakt</h2>
-					<p>
-						Za pitanja o privatnosti:
-						<br />
-						Email: europarkdoo@gmail.com
-						<br />
-						Adresa: Aleja Bosne Srebrene do br. 109
-						<br />
-						Telefon: +387 61 487 818
-					</p>
 				</section>
 
 				<section>
@@ -125,6 +109,19 @@ export default function PrivacyPolicy() {
 					<p>
 						Obavijestit ćemo vas o značajnim promjenama putem obavještenja na našoj web stranici.
 						Preporučujemo redovnu provjeru ove stranice.
+					</p>
+				</section>
+
+				<section>
+					<h2>Kontakt</h2>
+					<p>
+						EuroPark
+						<br />
+						Adresa: Aleja Bosne Srebrene do br. 109
+						<br />
+						Telefon: +387 61 487 818
+						<br />
+						Email: europarkdoo@gmail.com
 					</p>
 				</section>
 			</div>

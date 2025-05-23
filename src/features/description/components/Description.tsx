@@ -10,7 +10,7 @@ export default function Description() {
 				<span>{t('section_title')}</span>
 				<AcademicCapIcon className='size-8' />
 			</h2>
-			<p className='prose mx-auto max-w-prose text-white'>{t('p')}</p>
+			<p className='prose mx-auto max-w-prose text-center text-white'>{t('p')}</p>
 		</section>
 	);
 }

@@ -35,20 +35,21 @@ export default function TermsOfService() {
 	return (
 		<div className='prose mx-auto max-w-prose p-5'>
 			<div className='flex w-full justify-center'>
-				<Link href='/' className='btn btn-primary mb-20 !no-underline'>
+				<Link href='/' className='btn btn-primary btn-lg mb-20 !no-underline'>
 					{t('cta')}
 				</Link>
 			</div>
+
 			<h1 className='text-center'>{t('title')}</h1>
 
 			<div>
-				<p>Datum stupanja na snagu: 22.02.2025</p>
+				<p>Posljednje izmjene: 23.05.2025.</p>
 
 				<section>
-					<h2>Prihvaćanje Uvjeta</h2>
+					<h2>Prihvaćanje Uslova</h2>
 					<p>
 						Korištenjem usluga EuroPark (&quot;usluga&quot;, &quot;servis&quot;) smatra se da ste
-						pročitali, razumjeli i pristali na ove Uvjete. Ako ne prihvatate ove uvjete, nemojte
+						pročitali, razumjeli i pristali na ove Uslove. Ako ne prihvatate ove uslove, nemojte
 						koristiti naš servis.
 					</p>
 				</section>
@@ -75,7 +76,7 @@ export default function TermsOfService() {
 							prije početka rezervacije
 						</li>
 						<li>
-							Kašnjenje u preuzimanju vozila: Naplaćuje se <strong>10 KM po danu</strong> za
+							Kašnjenje u preuzimanju vozila se naplaćuje <strong>10 KM po danu</strong> za
 							svaki dan kašnjenja
 						</li>
 						<li>
@@ -100,7 +101,7 @@ export default function TermsOfService() {
 					<h2>Odgovornost</h2>
 					<ul>
 						<li>
-							Ne snosimo odgovornost za štetu nastalu uslijed:
+							Ne snosimo odgovornost za štetu nastalu zbog:
 							<ul>
 								<li>Vanjskih faktora (prirodne nepogode, ekstremni vremenski uslovi)</li>
 								<li>Krađe ili oštećenja vozila izvan našeg nadzora</li>
@@ -146,9 +147,7 @@ export default function TermsOfService() {
 				<section>
 					<h2>Kontakt</h2>
 					<p>
-						Za sva pitanja u vezi sa Uvjetima korištenja:
-						<br />
-						EuroRent
+						EuroPark
 						<br />
 						Adresa: Aleja Bosne Srebrene do br. 109
 						<br />
@@ -157,6 +156,12 @@ export default function TermsOfService() {
 						Email: europarkdoo@gmail.com
 					</p>
 				</section>
+
+				<div className='flex w-full justify-center'>
+					<Link href='/' className='btn btn-primary btn-lg mt-20 !no-underline'>
+						{t('cta')}
+					</Link>
+				</div>
 			</div>
 		</div>
 	);
