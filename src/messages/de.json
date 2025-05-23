@@ -110,24 +110,24 @@
 	"FAQ": {
 		"section_title": "Häufige Fragen",
 		"1": {
-			"q": "Wie erreiche ich EuroPark?",
-			"a": "Wir befinden uns in der Straße Aleja Bosne Srebrene do br. 109, wenige hundert Meter vom Flughafen Sarajevo entfernt."
+			"q": "Wie komme ich zu EuroPark?",
+			"a": "Der private Flughafenparkplatz EuroPark befindet sich in der Aleja Bosne Srebrene bis Nr. 109, nur 3 Minuten vom Flughafen Sarajevo entfernt."
 		},
 		"2": {
 			"q": "Wann und wie bezahle ich?",
-			"a": "Die Bezahlung erfolgt nach dem Parken Ihres Fahrzeugs und sobald alles in Ordnung ist. Die Zahlung erfolgt in bar in KM-Währung."
+			"a": "Die Bezahlung für den Parkservice von EuroPark erfolgt nach dem Parken Ihres Fahrzeugs. Die Bezahlung erfolgt in bar in der Währung KM."
 		},
 		"3": {
-			"q": "Was passiert bei Überschreitung?",
-			"a": "Wenn Sie Ihr Auto nicht zum vereinbarten Datum abholen, wird für jeden weiteren Tag eine Gebühr von 10KM (5€) berechnet."
+			"q": "Was passiert bei Überschreitung der Parkdauer?",
+			"a": "Falls Sie Ihr Fahrzeug nicht bis zum vereinbarten Datum abholen, wird jeder weitere Tag mit einem Aufpreis von 10 KM (5€) berechnet."
 		},
 		"4": {
-			"q": "Was ist bei Schäden?",
-			"a": "Ihr Fahrzeug ist sicher und wir garantieren seinen Schutz. Bei unvorhersehbaren Schäden, die nicht in unserer Verantwortung liegen, übernehmen wir keine Kosten. Weitere Details finden Sie in den Nutzungsbedingungen."
+			"q": "Was passiert im Schadensfall?",
+			"a": "Ihr Fahrzeug ist auf unserem Parkplatz vollkommen sicher, wir garantieren den Schutz Ihres Fahrzeugs. Falls unvorhergesehene Situationen, die nicht in unserer Verantwortung liegen, Ihr Fahrzeug beschädigen, übernehmen wir keine Kosten. Für weitere Informationen lesen Sie bitte die Nutzungsbedingungen."
 		},
 		"5": {
-			"q": "Ich möchte meine Buchung stornieren?",
-			"a": "Sie können Ihre Buchung per Anruf oder Nachricht mindestens 3 Tage vor Buchungsbeginn stornieren."
+			"q": "Wie kann ich meinen Termin stornieren?",
+			"a": "Sie können Ihren Termin durch einen Anruf oder eine Nachricht 3 Tage vor Beginn Ihrer Reservierung stornieren."
 		}
 	},
 	"Location": {

@@ -110,24 +110,24 @@
 	"FAQ": {
 		"section_title": "Frequently Asked Questions",
 		"1": {
-			"q": "How to reach EuroPark?",
-			"a": "We are located at Aleja Bosne Srebrene do br. 109 street, a few hundred meters from Sarajevo Airport."
+			"q": "How to get to EuroPark?",
+			"a": "The private airport parking EuroPark is located on Aleja Bosne Srebrene Street up to no. 109, 3 minutes away from Sarajevo Airport."
 		},
 		"2": {
 			"q": "When and how do I pay?",
-			"a": "Payment for our services is made after your vehicle is parked and once we are sure everything is in order. Payment is with cash in KM currency."
+			"a": "Payment for EuroPark parking services is made after parking your vehicle. Payment is in cash in the KM currency."
 		},
 		"3": {
-			"q": "What if I overstay?",
-			"a": "If you do not collect your car by the agreed date, each additional day will incur a charge of 10KM (5€)."
+			"q": "What if I exceed my time?",
+			"a": "If you do not pick up your vehicle by the agreed date, each additional day is charged at 10KM (5€)."
 		},
 		"4": {
-			"q": "What about in case of damage?",
-			"a": "Your vehicle is safe and we guarantee its protection. In the event of unforeseen circumstances not under our responsibility causing damage to your vehicle, we will not bear the costs. For more details, please read the Terms of Use page."
+			"q": "What happens in case of damage?",
+			"a": "Your vehicle in our parking lot is completely safe; we guarantee the protection of your vehicle. In case of unforeseen situations beyond our control that damage your vehicle, we are not liable for the costs. For more detailed information, please read the Terms of Service."
 		},
 		"5": {
-			"q": "I want to cancel my booking?",
-			"a": "You can cancel your booking by giving us a call or a message, at least 3 days prior to the start of your booking."
+			"q": "How do I cancel my reservation?",
+			"a": "You can cancel your reservation by call or message 3 days before the start of your reservation."
 		}
 	},
 	"Location": {
