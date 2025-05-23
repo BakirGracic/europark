@@ -93,8 +93,8 @@
 			"placeholder": "imeprezime@mail.com"
 		},
 		"Phone": {
-			"tip": "Vaš broj",
-			"placeholder": "061 222 333*"
+			"tip": "Vaš broj*",
+			"placeholder": "061 222 333"
 		},
 		"Date": {
 			"tip": "Datumi dolaska i odlaska*"

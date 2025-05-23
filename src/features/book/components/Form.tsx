@@ -24,14 +24,14 @@ export default function Form() {
 			return;
 		} else if (state.status === 'ok') {
 			toast.custom(() => (
-				<div role='alert' className='alert alert-success alert-soft w-sm'>
+				<div role='alert' className='alert alert-success w-sm'>
 					<CheckBadgeIcon className='h-6 w-6' />
 					<span>{t('success_message')}</span>
 				</div>
 			));
 		} else {
 			toast.custom(() => (
-				<div role='alert' className='alert alert-error alert-soft w-sm'>
+				<div role='alert' className='alert alert-error w-sm'>
 					<ExclamationTriangleIcon className='h-6 w-6' />
 					<span>{t('error_message')}</span>
 				</div>
