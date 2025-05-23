@@ -90,18 +90,18 @@
 		},
 		"Email": {
 			"tip": "Vaš email*",
-			"placeholder": "ime@gmail.com"
+			"placeholder": "imeprezime@mail.com"
 		},
 		"Phone": {
-			"tip": "Vaši broj",
-			"placeholder": "061 222 333"
+			"tip": "Vaš broj",
+			"placeholder": "061 222 333*"
 		},
 		"Date": {
 			"tip": "Datumi dolaska i odlaska*"
 		},
 		"Message": {
-			"tip": "Napomene",
-			"placeholder": "Želite li nam nešto još reći?"
+			"tip": "Napomena",
+			"placeholder": "Želite li nam još nešto reći?"
 		},
 		"submit_text": "Rezervišite",
 		"success_message": "Vaša rezervacija je uspješno zaprimljena!",
