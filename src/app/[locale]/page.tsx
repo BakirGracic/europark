@@ -15,6 +15,7 @@ import Book from '@/features/book/components/Book';
 import FAQ from '@/features/faq/components/FAQ';
 import Location from '@/features/location/components/Location';
 import Description from '@/features/description/components/Description';
+import Video from '@/features/video/components/Video';
 import Footer from '@/features/footer/components/Footer';
 
 export async function generateMetadata({
@@ -61,6 +62,7 @@ export default function Homepage() {
 			<FAQ />
 			<Location />
 			<Description />
+			<Video />
 			<Footer />
 		</>
 	);
